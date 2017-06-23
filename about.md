@@ -1,17 +1,29 @@
 ---
 layout: page
-title: About
+title: 이호성
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+### Experience
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+* Enswers  (2008.03 - 2015. 07)
+* Gracenote (2015.07 - 2015.10)
+* 8percent (2015.11 - Current)
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+### Links
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* [개인 브런치](https://brunch.co.kr/@leehosung)
+* [8퍼센트 프로덕트 블로그](https://8percent.github.io)
+* [8퍼센트 브런치](https://brunch.co.kr/magazine/8percent)
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+### Coursera
+
+* Computing for Data Analysis (Jan 6th 2014) by Johns Hopkins University
+* Model Thinking (Feb 3rd 2014) by University of Michian
+* The Data Scientist’s Toolbox (July 8th, 2014) by Johns Hopkins University
+* Pre-Calculus (September 7th, 2014) by University of California
+* Getting and Cleaning Data (Jun 7th 2014) by Johns Hopkins University
+* Learning how to learn: Powerful mental tools to help you master tough subjects (Sep 04 2014) by UC San Diego
+* Introduction to HTML5 (Feb 1st 2016) by University of Michigan
+* Introduction to CSS3 (Feb 29th 2016) by University of Michigan
+* Interactivity with Javascript (Apr 4th 2016) by University of Michigan
