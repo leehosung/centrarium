@@ -6,6 +6,7 @@ permalink: /books/
 
 ### 큐
 
+* [사라진 실패](http://www.yes24.com/24/Goods/8671330?Acode=101)
 * [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
 * [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
 
