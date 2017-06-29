@@ -4,6 +4,10 @@ title: 책
 permalink: /books/
 ---
 
+### 큐
+
+* [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
+
 ### 2017년 
 
 * [소년이 그랬다](http://localhost:4000/%EB%8F%85%ED%9B%84%EA%B0%90/2017/01/27/%EC%86%8C%EB%85%84%EC%9D%B4-%EA%B7%B8%EB%9E%AC%EB%8B%A4-%EB%82%98%EB%8F%84-%EA%B7%B8%EB%9E%AC%EB%8B%A4.html) (완)
