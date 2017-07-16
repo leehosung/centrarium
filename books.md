@@ -26,6 +26,7 @@ permalink: /books/
 * 시보다 아름다운 수필
 * Business Model Generation
 * 만화의 이해
+* [Two Scoops of Django](https://www.twoscoopspress.com/)
 
 ### 2016년
 
