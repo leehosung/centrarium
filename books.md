@@ -6,7 +6,8 @@ permalink: /books/
 
 ### 큐
 
-* [사라진 실패](http://www.yes24.com/24/Goods/8671330?Acode=101)
+* [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+  * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
 * [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
 * [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
 
