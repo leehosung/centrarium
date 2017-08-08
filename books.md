@@ -6,6 +6,8 @@ permalink: /books/
 
 ### 큐
 
+* [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
+* [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
 * [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
   * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
 * [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
