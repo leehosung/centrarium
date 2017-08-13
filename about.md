@@ -16,6 +16,13 @@ permalink: /about/
 * [8퍼센트 프로덕트 블로그](https://8percent.github.io)
 * [8퍼센트 브런치](https://brunch.co.kr/magazine/8percent)
 
+### Talks
+
+* [PyCon2017 - 보다 정확한 숫자 계산](http://slides.com/hosunglee-1/deck-10#/)
+* [패캠 참여기업 특강 - 8퍼센트에서 개발하기](http://slides.com/hosunglee-1/deck-1-2-3-4-7#/)
+* [서울대 특강 - 스타트업 개발자의 12년](http://slides.com/hosunglee-1/deck-1-2-3-6#/)
+* [PyCon2015 - Python 테스트 시작하기](http://slides.com/hosunglee-1/deck#/)
+
 ### Coursera
 
 * Computing for Data Analysis (Jan 6th 2014) by Johns Hopkins University
