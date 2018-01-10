@@ -7,17 +7,22 @@ permalink: /books/
 ### 큐
 
 * [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
+  * 쿠팡 이민정님께 추천 받았음
 * [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
+  * 쿠팡 이민정님께 추천 받았음
 * [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
   * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
 * [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
+  * 문수님이 내게 추천 해 준 책
 * [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
+  * 회사 세미나에서 상품으로 받았음
 
 ### 2018년
 
-* 어떻게 살것인가?
-* 장병규의 스타트업 한국
-* 밑바닥 부터 시작하는 데이터 과학
+* [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101)
+* [장병규의 스타트업 한국](http://www.yes24.com/24/goods/57654682?scode=032&OzSrank=1)
+* [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
+  * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
 
 ### 2017년 
 
@@ -34,17 +39,27 @@ permalink: /books/
 * 나의 한국 현대사
 * 시보다 아름다운 수필
 * Business Model Generation
-* 만화의 이해
+* [만화의 이해](http://www.yes24.com/24/goods/3001183?scode=032&OzSrank=1)
+  * 진님이 내게 추천 해 준 책
 * [Two Scoops of Django](https://www.twoscoopspress.com/) (완)
-* Foundations for Anaylytics with Python
+  * [두숟갈](https://brunch.co.kr/@leehosung/42) 스터디 교재
+  * https://github.com/8percent/tsd
+* [파이썬 데이터 분석](http://www.yes24.com/24/Goods/53584364?Acode=101)
+  * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
+  * https://github.com/leehosung/analytics-with-python
 * Vue.js 2 시작하기 
+  * 남홍님께 빌려서 보았음
+  * https://github.com/leehosung/learning_vuejs2
 * 블럭체인 혁명
 * 딥러닝 첫걸음
-* 구굴의 아침은 자유가 시작된다
+* 구글의 아침은 자유가 시작된다 
+  * 영학이가 [수평적 조직문화 파헤치기](https://publy.co/set/163/membership) 에서 추천해 준 책
 * 창의성을 지휘하라 
+  * 영학이가 [수평적 조직문화 파헤치기](https://publy.co/set/163/membership) 에서 추천해 준 책
 * 홀라크라시
+  * 영학이가 [수평적 조직문화 파헤치기](https://publy.co/set/163/membership) 에서 추천해 준 책
 * 스프린트
-
+  * 영학이가 [수평적 조직문화 파헤치기](https://publy.co/set/163/membership) 에서 추천해 준 책
 
 ### 2016년
 
