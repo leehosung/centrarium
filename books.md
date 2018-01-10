@@ -13,6 +13,12 @@ permalink: /books/
 * [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
 * [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
 
+### 2018년
+
+* 어떻게 살것인가?
+* 장병규의 스타트업 한국
+* 밑바닥 부터 시작하는 데이터 과학
+
 ### 2017년 
 
 * [소년이 그랬다](http://localhost:4000/%EB%8F%85%ED%9B%84%EA%B0%90/2017/01/27/%EC%86%8C%EB%85%84%EC%9D%B4-%EA%B7%B8%EB%9E%AC%EB%8B%A4-%EB%82%98%EB%8F%84-%EA%B7%B8%EB%9E%AC%EB%8B%A4.html) (완)
@@ -29,7 +35,16 @@ permalink: /books/
 * 시보다 아름다운 수필
 * Business Model Generation
 * 만화의 이해
-* [Two Scoops of Django](https://www.twoscoopspress.com/)
+* [Two Scoops of Django](https://www.twoscoopspress.com/) (완)
+* Foundations for Anaylytics with Python
+* Vue.js 2 시작하기 
+* 블럭체인 혁명
+* 딥러닝 첫걸음
+* 구굴의 아침은 자유가 시작된다
+* 창의성을 지휘하라 
+* 홀라크라시
+* 스프린트
+
 
 ### 2016년
 
