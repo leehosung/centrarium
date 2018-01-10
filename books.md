@@ -38,7 +38,6 @@ permalink: /books/
 * [효율적 이타주의자](/독후감/2017/04/26/효율적-이타주의자로-한-걸음.html) (완)
 * 나의 한국 현대사
 * 시보다 아름다운 수필
-* Business Model Generation
 * [만화의 이해](http://www.yes24.com/24/goods/3001183?scode=032&OzSrank=1)
   * 진님이 내게 추천 해 준 책
 * [Two Scoops of Django](https://www.twoscoopspress.com/) (완)
