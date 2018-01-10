@@ -6,7 +6,7 @@ permalink: /studies/
 
 ### 2018년 
 
-* [Ethereum : Decentralized Application Design & Development] ()
+* [Ethereum : Decentralized Application Design & Development](https://www.udemy.com/ethereum-dapp/)
 * [네이버 마케팅 : 키워드편](https://www.udemy.com/guide_to_naver_maketing_with_keyword/)
 * [The Complete Digital Marketing Course](https://www.udemy.com/learn-digital-marketing-course/)
 * [Python for Finance: Investment Fundamentals & Data Analytics](https://www.udemy.com/python-for-finance-investment-fundamentals-data-analytics/)
