@@ -23,8 +23,11 @@ permalink: /books/
 
 * [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101) (완)
 * [장병규의 스타트업 한국](http://www.yes24.com/24/goods/57654682?scode=032&OzSrank=1)
+  * 리디북스에서 충동 구매
 * [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
   * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
+* [오직 경험으로](https://tumblbug.com/junghakdong_leave) (완)
+  * 함께 일한 슬기님과 보영님이 쓰신 책
 
 ### 2017년 
 
