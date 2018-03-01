@@ -27,20 +27,25 @@ permalink: /books/
 * [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
   * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
 * [오직 경험으로](https://tumblbug.com/junghakdong_leave) (완)
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/03/01/%EC%98%A4%EC%A7%81-%EA%B2%BD%ED%97%98%EC%9C%BC%EB%A1%9C.html)
   * 함께 일한 슬기님과 보영님이 쓰신 책
 
 ### 2017년 
 
-* [소년이 그랬다](http://localhost:4000/%EB%8F%85%ED%9B%84%EA%B0%90/2017/01/27/%EC%86%8C%EB%85%84%EC%9D%B4-%EA%B7%B8%EB%9E%AC%EB%8B%A4-%EB%82%98%EB%8F%84-%EA%B7%B8%EB%9E%AC%EB%8B%A4.html) (완)
-* [똑똑한 사람들의 멍청한 선택](http://localhost:4000/%EB%8F%85%ED%9B%84%EA%B0%90/2017/02/22/%EB%98%91%EB%98%91%ED%95%9C-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EB%A9%8D%EC%B2%AD%ED%95%9C-%EC%84%A0%ED%83%9D-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC.html) (완)
+* 소년이 그랬다
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2017/01/27/%EC%86%8C%EB%85%84%EC%9D%B4-%EA%B7%B8%EB%9E%AC%EB%8B%A4-%EB%82%98%EB%8F%84-%EA%B7%B8%EB%9E%AC%EB%8B%A4.html) (완)
+* 똑똑한 사람들의 멍청한 선택
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2017/02/22/%EB%98%91%EB%98%91%ED%95%9C-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%98-%EB%A9%8D%EC%B2%AD%ED%95%9C-%EC%84%A0%ED%83%9D-%EC%9A%A9%EC%96%B4%EC%A0%95%EB%A6%AC.html) (완)
 * 하드씽(완)
 * 그릿
 * 완벽한 공부법
 * [아내가 결혼했다](/독후감/2017/03/29/아내가-결혼했다.html) (완)
 * 당신 인생의 이야기 (완)
 * 만화로 보는 회계학 콘서트 (완)
-* [마켓 4.0](/독후감/2017/05/08/브랜드를-지지하게-하라.html) (완)
-* [효율적 이타주의자](/독후감/2017/04/26/효율적-이타주의자로-한-걸음.html) (완)
+* 마켓 4.0 (완)
+  * [독후감](/독후감/2017/05/08/브랜드를-지지하게-하라.html)
+* 효율적 이타주의자 (완)
+  * [독후감](/독후감/2017/04/26/효율적-이타주의자로-한-걸음.html)
 * 나의 한국 현대사
 * 시보다 아름다운 수필
 * [만화의 이해](http://www.yes24.com/24/goods/3001183?scode=032&OzSrank=1)
