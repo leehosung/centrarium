@@ -16,10 +16,12 @@ permalink: /books/
   * 문수님이 내게 추천 해 준 책
 * [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
   * 회사 세미나에서 상품으로 받았음
+* [사이트 신뢰성 엔지니어링]
+  * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
 
 ### 2018년
 
-* [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101)
+* [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101) (완)
 * [장병규의 스타트업 한국](http://www.yes24.com/24/goods/57654682?scode=032&OzSrank=1)
 * [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
   * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
