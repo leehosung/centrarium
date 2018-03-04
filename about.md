@@ -6,9 +6,9 @@ permalink: /about/
 
 ### Experience
 
-* Enswers  (2008.03 - 2015. 07)
-* Gracenote (2015.07 - 2015.10)
-* 8percent (2015.11 - Current)
+* 병특 (2005 - 2008)
+* Enswers -> KT -> Gracenote (2008 - 2015)
+* 8퍼센트 (2015 - Current)
 
 ### Links
 
