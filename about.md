@@ -14,7 +14,6 @@ permalink: /about/
 
 * [개인 브런치](https://brunch.co.kr/@leehosung)
 * [8퍼센트 프로덕트 블로그](https://8percent.github.io)
-* [8퍼센트 브런치](https://brunch.co.kr/magazine/8percent)
 
 ### Talks
 
@@ -30,7 +29,7 @@ permalink: /about/
 * 2015
   * [PyCon2015 - Python 테스트 시작하기](http://slides.com/hosunglee-1/deck#/)
 
-### Coursera
+### Courses
 
 * 2018
   * Ethereum : Decentralized Application Design & Development
