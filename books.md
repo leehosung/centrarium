@@ -18,6 +18,8 @@ permalink: /books/
   * 회사 세미나에서 상품으로 받았음
 * [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
   * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
+* [컴퓨터과학이 여는 세계](http://www.yes24.com/24/Goods/17976737?Acode=101)
+  * http://ropas.snu.ac.kr/~kwang/ 에서 발견
 
 ### 2018년
 
