@@ -22,6 +22,7 @@ permalink: /books/
 ### 2018년
 
 * [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101) (완)
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/03/02/%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%B4%EA%B2%83%EC%9D%B8%EA%B0%80.html)
 * [장병규의 스타트업 한국](http://www.yes24.com/24/goods/57654682?scode=032&OzSrank=1) (완)
   * 리디북스에서 충동 구매
 * [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
