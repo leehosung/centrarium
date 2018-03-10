@@ -29,19 +29,3 @@ permalink: /about/
   * [서울대 특강 - 스타트업 개발자의 12년](http://slides.com/hosunglee-1/deck-1-2-3-6#/)
 * 2015
   * [PyCon2015 - Python 테스트 시작하기](http://slides.com/hosunglee-1/deck#/)
-
-### Courses
-
-* 2018
-  * Ethereum : Decentralized Application Design & Development
-* 2016
-  * Introduction to HTML5 (Feb 1st 2016) by University of Michigan
-  * Introduction to CSS3 (Feb 29th 2016) by University of Michigan
-  * Interactivity with Javascript (Apr 4th 2016) by University of Michigan
-* 2014
-  * Computing for Data Analysis (Jan 6th 2014) by Johns Hopkins University
-  * Model Thinking (Feb 3rd 2014) by University of Michian
-  * The Data Scientist’s Toolbox (July 8th, 2014) by Johns Hopkins University
-  * Pre-Calculus (September 7th, 2014) by University of California
-  * Getting and Cleaning Data (Jun 7th 2014) by Johns Hopkins University
-  * Learning how to learn: Powerful mental tools to help you master tough subjects (Sep 04 2014) by UC San Diego
