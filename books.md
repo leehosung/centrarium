@@ -32,6 +32,31 @@ permalink: /books/
 * [오직 경험으로](https://tumblbug.com/junghakdong_leave) (완)
   * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/03/01/%EC%98%A4%EC%A7%81-%EA%B2%BD%ED%97%98%EC%9C%BC%EB%A1%9C.html)
   * 함께 일한 슬기님과 보영님이 쓰신 책
+* [GE 인재 양성 프로그램](http://www.yes24.com/24/Goods/1436592?Acode=101)
+  * 윤성대 대표님 추천 
+* [1% 인재에 집중하라](http://www.yes24.com/24/Goods/3082960?Acode=101)
+  * 윤성대 대표님 추천
+* [HR Champions : 21세기 인사전문가의 새로운 역할과 과제](http://www.yes24.com/24/UsedShop/Goods/339789?scode=048_002)
+  * 윤성대 대표님 추천 
+* [보상](http://www.yes24.com/24/goods/7227271?scode=029)
+  * 동대문 교보문고에서 충동구매 
+* [책 잘 읽는 방법](http://www.yes24.com/24/goods/58606180?scode=032&OzSrank=1) (완)
+  * 회사 책장에서 꺼내어 읽었음 
+* [그림으로 배우는 Http & Network](http://www.yes24.com/24/Goods/15894097?Acode=101) (완)
+  * '너와 나의 패킷' 교재 
+* [Django ORM Cookbook](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/)
+  * 회사 스터디 교재 
+* [원칙](http://www.yes24.com/24/goods/61186169?scode=032&OzSrank=1) 
+  * 영학이가 자주 언급해서 기억에 남은 책 
+  * 알고보니 효진님도 읽고 있더라 
+* [어서와, 리더는 처음이지?](http://www.yes24.com/24/Goods/61927978?Acode=101) (완)
+  * 영학이의 첫번째 책 
+  * 베타 리딩을 했음 
+* [류재언 변호사의 협상 바이블](http://www.yes24.com/24/goods/61513826?scode=032&OzSrank=2)
+  * 선물로 받고, 한권을 구매 
+  * 회사에 와서 [세미나](https://brunch.co.kr/@leehosung/19)를 해 주었었음
+* [기업문화 오디세이](http://www.yes24.com/24/Goods/17660714?Acode=101)
+  * 토독토독 스터디 교재
 
 ### 2017년 
 
