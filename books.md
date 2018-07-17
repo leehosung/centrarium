@@ -42,6 +42,7 @@ permalink: /books/
   * 동대문 교보문고에서 충동구매 
 * [책 잘 읽는 방법](http://www.yes24.com/24/goods/58606180?scode=032&OzSrank=1) (완)
   * 회사 책장에서 꺼내어 읽었음 
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/07/18/%EC%B1%85-%EC%9E%98-%EC%9D%BD%EB%8A%94-%EB%B0%A9%EB%B2%95.html)
 * [그림으로 배우는 Http & Network](http://www.yes24.com/24/Goods/15894097?Acode=101) (완)
   * '너와 나의 패킷' 교재 
 * [Django ORM Cookbook](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/)
