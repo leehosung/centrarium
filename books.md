@@ -61,7 +61,7 @@ permalink: /books/
   * 토독토독 스터디 교재
 * [승려와 수수께끼](http://www.yes24.com/24/goods/11529808) (완)
   * 디파지트에서 영학이 소개로 사옴
-* [The Slicing Pie Handbook]
+* [The Slicing Pie Handbook](https://www.amazon.com/Slicing-Pie-Handbook-Perfectly-Bootstrapped-ebook/dp/B01LZJWFXH/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=slipie-20&linkId=8f47c8883d5a0a613477bef9e46001f3)
   * 시작하는 스타트업의 지분분배를 위한 새로운 방법에 대해 다른 책
   * https://slicingpie.com/
   * [Exeum](http://exeum.io/#/) foundation 슬랙에서 알게 되었음
