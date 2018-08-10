@@ -53,11 +53,18 @@ permalink: /books/
 * [어서와, 리더는 처음이지?](http://www.yes24.com/24/Goods/61927978?Acode=101) (완)
   * 영학이의 첫번째 책 
   * 베타 리딩을 했음 
+  * 선물로 받고, 한권을 구매
 * [류재언 변호사의 협상 바이블](http://www.yes24.com/24/goods/61513826?scode=032&OzSrank=2)
   * 선물로 받고, 한권을 구매 
   * 회사에 와서 [세미나](https://brunch.co.kr/@leehosung/19)를 해 주었었음
 * [기업문화 오디세이](http://www.yes24.com/24/Goods/17660714?Acode=101)
   * 토독토독 스터디 교재
+* [승려와 수수께끼](http://www.yes24.com/24/goods/11529808) (완)
+  * 디파지트에서 영학이 소개로 사옴
+* [The Slicing Pie Handbook]
+  * 시작하는 스타트업의 지분분배를 위한 새로운 방법에 대해 다른 책
+  * https://slicingpie.com/
+  * [Exeum](http://exeum.io/#/) foundation 슬랙에서 알게 되었음
 
 ### 2017년 
 
