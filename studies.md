@@ -11,6 +11,7 @@ permalink: /studies/
 * [The Complete Digital Marketing Course](https://www.udemy.com/learn-digital-marketing-course/)
 * [Python for Finance: Investment Fundamentals & Data Analytics](https://www.udemy.com/python-for-finance-investment-fundamentals-data-analytics/)
 * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디
+* [너와 나의 패킷](https://brunch.co.kr/@leehosung/48) 스터디
 
 
 ### 2017년 
