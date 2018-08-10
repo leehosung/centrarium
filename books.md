@@ -27,6 +27,7 @@ permalink: /books/
   * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/03/02/%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%B4%EA%B2%83%EC%9D%B8%EA%B0%80.html)
 * [장병규의 스타트업 한국](http://www.yes24.com/24/goods/57654682?scode=032&OzSrank=1) (완)
   * 리디북스에서 충동 구매
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/03/04/%EC%9E%A5%EB%B3%91%EA%B7%9C%EC%9D%98-%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85-%ED%95%9C%EA%B5%AD.html)
 * [밑바닥 부터 시작하는 데이터 과학](http://www.yes24.com/24/Goods/27951467?Acode=101)
   * [거울아거울아](https://brunch.co.kr/@leehosung/44) 스터디 교재
 * [오직 경험으로](https://tumblbug.com/junghakdong_leave) (완)
@@ -44,7 +45,7 @@ permalink: /books/
   * 회사 책장에서 꺼내어 읽었음 
   * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/07/18/%EC%B1%85-%EC%9E%98-%EC%9D%BD%EB%8A%94-%EB%B0%A9%EB%B2%95.html)
 * [그림으로 배우는 Http & Network](http://www.yes24.com/24/Goods/15894097?Acode=101) (완)
-  * '너와 나의 패킷' 교재 
+  * [너와 나의 패킷](https://brunch.co.kr/@leehosung/48) 교재 
 * [Django ORM Cookbook](https://books.agiliq.com/projects/django-orm-cookbook/en/latest/)
   * 회사 스터디 교재 
 * [원칙](http://www.yes24.com/24/goods/61186169?scode=032&OzSrank=1) 
