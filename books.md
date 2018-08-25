@@ -4,23 +4,6 @@ title: 책
 permalink: /books/
 ---
 
-### 큐
-
-* [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
-  * 쿠팡 이민정님께 추천 받았음
-* [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
-  * 쿠팡 이민정님께 추천 받았음
-* [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
-  * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
-* [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
-  * 문수님이 내게 추천 해 준 책
-* [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
-  * 회사 세미나에서 상품으로 받았음
-* [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
-  * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
-* [컴퓨터과학이 여는 세계](http://www.yes24.com/24/Goods/17976737?Acode=101)
-  * http://ropas.snu.ac.kr/~kwang/ 에서 발견
-
 ### 2018년
 
 * [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101) (완)
@@ -66,6 +49,28 @@ permalink: /books/
   * 시작하는 스타트업의 지분분배를 위한 새로운 방법에 대해 다른 책
   * https://slicingpie.com/
   * [Exeum](http://exeum.io/#/) foundation 슬랙에서 알게 되었음
+* [컴퓨터과학이 여는 세계](http://www.yes24.com/24/Goods/17976737?Acode=101)
+  * http://ropas.snu.ac.kr/~kwang/ 에서 발견
+  * PyCon Korea 2018의 행사장에서 구매 하였음
+* [황금수도꼭지](http://www.yes24.com/24/goods/59604294?scode=032&OzSrank=1)
+  * 디파지트에서 영학이 소개로 사옴
+* [How to measure anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business-ebook/dp/B00INUYS2U)
+  * 김범준 우아한형제 CTO 님 페북에서 발견
+
+### 큐
+
+* [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
+  * 쿠팡 이민정님께 추천 받았음
+* [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
+  * 쿠팡 이민정님께 추천 받았음
+* [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+  * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+* [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
+  * 문수님이 내게 추천 해 준 책
+* [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
+  * 회사 세미나에서 상품으로 받았음
+* [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
+  * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
 
 ### 2017년 
 
