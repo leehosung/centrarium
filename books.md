@@ -41,7 +41,9 @@ permalink: /books/
 * [류재언 변호사의 협상 바이블](http://www.yes24.com/24/goods/61513826?scode=032&OzSrank=2)
   * 선물로 받고, 한권을 구매 
   * 회사에 와서 [세미나](https://brunch.co.kr/@leehosung/19)를 해 주었었음
-* [기업문화 오디세이](http://www.yes24.com/24/Goods/17660714?Acode=101)
+* [기업문화 오디세이 1](http://www.yes24.com/24/Goods/17660714?Acode=101) (완)
+  * 토독토독 스터디 교재
+* [기업문화 오디세이 2](http://www.yes24.com/24/Goods/17660714?Acode=101)
   * 토독토독 스터디 교재
 * [승려와 수수께끼](http://www.yes24.com/24/goods/11529808) (완)
   * 디파지트에서 영학이 소개로 사옴
@@ -54,8 +56,6 @@ permalink: /books/
   * PyCon Korea 2018의 행사장에서 구매 하였음
 * [황금수도꼭지](http://www.yes24.com/24/goods/59604294?scode=032&OzSrank=1)
   * 디파지트에서 영학이 소개로 사옴
-* [How to measure anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business-ebook/dp/B00INUYS2U)
-  * 김범준 우아한형제 CTO 님 페북에서 발견
 
 ### 큐
 
@@ -71,6 +71,8 @@ permalink: /books/
   * 회사 세미나에서 상품으로 받았음
 * [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
   * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
+* [How to measure anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business-ebook/dp/B00INUYS2U)
+  * 김범준 우아한형제 CTO 님 페북에서 발견
 
 ### 2017년 
 
