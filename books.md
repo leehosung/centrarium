@@ -24,6 +24,9 @@ permalink: /books/
   * 윤성대 대표님 추천 
 * [보상](http://www.yes24.com/24/goods/7227271?scode=029)
   * 동대문 교보문고에서 충동구매 
+* [템빨](https://page.kakao.com/home/47050646)
+  * 카카오 페이지 게임판타지 소설
+  * 현재 43권 (2018년 8월 18일)
 * [책 잘 읽는 방법](http://www.yes24.com/24/goods/58606180?scode=032&OzSrank=1) (완)
   * 회사 책장에서 꺼내어 읽었음 
   * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/07/18/%EC%B1%85-%EC%9E%98-%EC%9D%BD%EB%8A%94-%EB%B0%A9%EB%B2%95.html)
@@ -151,11 +154,18 @@ permalink: /books/
 * Bootstrap 3.2
 * Elasticsearch Server
 * Chef Infrastructure Automation Cookbook
-* Test-Driven Development with Python
+* Test-Driven Development with Python (완)
 * The Year Without Pants (완)
 * 생존 체력 - 이것은 살기 위한 최소한의 운동이다. (완)
 * Business Model Generation
 * 이윤기의 그리스 로마 신화 1 (완)
+* 주거 인테리어 해부도감 (완)
+* Google Writing (완)
+* 불로장생 Top Secret (완)
+* Head First Statistics
+* REST API Design Rulebook (완)
+* 넛지 (완)
+* 프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략
 
 ------------
 
