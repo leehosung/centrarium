@@ -59,6 +59,8 @@ permalink: /books/
   * PyCon Korea 2018의 행사장에서 구매 하였음
 * [황금수도꼭지](http://www.yes24.com/24/goods/59604294?scode=032&OzSrank=1)
   * 디파지트에서 영학이 소개로 사옴
+* [아버지들의 아버지 1](https://book.naver.com/bookdb/book_detail.nhn?bid=221888) (완)
+  * 도서관에서 베르나르베르베르 책들 중 얇은것을 골랐음
 
 ### 큐
 
