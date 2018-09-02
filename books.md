@@ -61,6 +61,7 @@ permalink: /books/
   * 디파지트에서 영학이 소개로 사옴
 * [아버지들의 아버지 1, 2](https://book.naver.com/bookdb/book_detail.nhn?bid=221888) (완)
   * 도서관에서 베르나르베르베르 책들 중 얇은것을 골랐음
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/09/02/%EC%95%84%EB%B2%84%EC%A7%80%EB%93%A4%EC%9D%98-%EC%95%84%EB%B2%84%EC%A7%80.html)
 
 ### 큐
 
