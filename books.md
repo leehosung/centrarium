@@ -41,6 +41,7 @@ permalink: /books/
   * 영학이의 첫번째 책 
   * 베타 리딩을 했음 
   * 선물로 받고, 한권을 구매
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2018/09/08/%EC%96%B4%EC%84%9C-%EC%99%80-%EB%A6%AC%EB%8D%94%EB%8A%94-%EC%B2%98%EC%9D%8C%EC%9D%B4%EC%A7%80.html)
 * [류재언 변호사의 협상 바이블](http://www.yes24.com/24/goods/61513826?scode=032&OzSrank=2)
   * 선물로 받고, 한권을 구매 
   * 회사에 와서 [세미나](https://brunch.co.kr/@leehosung/19)를 해 주었었음
