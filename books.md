@@ -4,6 +4,13 @@ title: 책
 permalink: /books/
 ---
 
+### 2019년
+
+* [함께 자라기](http://www.insightbook.co.kr/13227) (완)
+* [사용자 스토리 맵 만들기](http://www.insightbook.co.kr/13148)
+  * 남홍님의 추천
+* [Intelligent Credit Scoring](https://www.amazon.com/Intelligent-Credit-Scoring-Implementing-Scorecards/dp/1119279151)
+
 ### 2018년
 
 * [어떻게 살것인가?](http://www.yes24.com/24/Goods/8491738?Acode=101) (완)
