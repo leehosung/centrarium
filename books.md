@@ -79,22 +79,6 @@ permalink: /books/
   * 토독토독 독서 리스트 
   * 영학이에게 배달 받음
 
-### 큐
-
-* [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
-  * 쿠팡 이민정님께 추천 받았음
-* [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
-  * 쿠팡 이민정님께 추천 받았음
-* [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
-  * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
-* [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
-  * 문수님이 내게 추천 해 준 책
-* [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
-  * 회사 세미나에서 상품으로 받았음
-* [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
-  * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
-* [How to measure anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business-ebook/dp/B00INUYS2U)
-  * 김범준 우아한형제 CTO 님 페북에서 발견
 
 ### 2017년 
 
@@ -185,6 +169,25 @@ permalink: /books/
 * REST API Design Rulebook (완)
 * 넛지 (완)
 * 프로그래밍 대회에서 배우는 알고리즘 문제 해결 전략
+
+### 큐
+
+* [(사용자를) 생각하게 하지 마!](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788966261215)
+  * 쿠팡 이민정님께 추천 받았음
+* [사용성 평가 이렇게 하라](http://mobile.kyobobook.co.kr/showcase/book/KOR/9788992939560)
+  * 쿠팡 이민정님께 추천 받았음
+* [Debugging the development process](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+  * from [개발자가 갖추어야 할 9가지 기술 by 박종천](https://www.youtube.com/watch?v=fHyTA-UIcqs)
+* [조선을 탐한 사무라이](http://www.yes24.com/24/Goods/31881554)
+  * 문수님이 내게 추천 해 준 책
+* [필 때도 질 때도 동백꽃처럼](http://www.yes24.com/24/Goods/15241363?Acode=101)
+  * 회사 세미나에서 상품으로 받았음
+* [사이트 신뢰성 엔지니어링](http://www.yes24.com/24/goods/57979286)
+  * 남홍님이 공유해 주었고, 읽어 보고 싶은 책
+* [How to measure anything](https://www.amazon.com/How-Measure-Anything-Intangibles-Business-ebook/dp/B00INUYS2U)
+  * 김범준 우아한형제 CTO 님 페북에서 발견
+* [피플웨어](http://www.yes24.com/24/goods/13657193)
+  * 함께 자리기 책에서 추천되어서 찾아봐야 겠다는 생각이 들었음
 
 ------------
 
