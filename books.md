@@ -10,6 +10,10 @@ permalink: /books/
 * [사용자 스토리 맵 만들기](http://www.insightbook.co.kr/13148)
   * 남홍님의 추천
 * [Intelligent Credit Scoring](https://www.amazon.com/Intelligent-Credit-Scoring-Implementing-Scorecards/dp/1119279151)
+* [초격차](http://www.yes24.com/24/goods/64340664?scode=032&OzSrank=1)
+  * 효진님과 승현님의 추천
+* [사피엔스](http://www.yes24.com/24/goods/23030284?scode=032&OzSrank=1)
+  * 나도 지적이고 싶어서 충동 구매
 
 ### 2018년
 
