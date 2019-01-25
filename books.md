@@ -7,6 +7,7 @@ permalink: /books/
 ### 2019년
 
 * [함께 자라기](http://www.insightbook.co.kr/13227) (완)
+  * [독후감](http://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2019/01/12/%ED%95%A8%EA%BB%98-%EC%9E%90%EB%9D%BC%EA%B8%B0.html)
 * [사용자 스토리 맵 만들기](http://www.insightbook.co.kr/13148)
   * 남홍님의 추천
 * [Intelligent Credit Scoring](https://www.amazon.com/Intelligent-Credit-Scoring-Implementing-Scorecards/dp/1119279151)
