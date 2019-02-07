@@ -15,8 +15,10 @@ permalink: /books/
   * 효진님과 승현님의 추천
 * [사피엔스](http://www.yes24.com/24/goods/23030284?scode=032&OzSrank=1)
   * 나도 지적이고 싶어서 충동 구매
-* [통증박사 안강입니다] (http://www.yes24.com/24/goods/8523455?scode=032&OzSrank=2) (발췌독 완)
+* [통증박사 안강입니다](http://www.yes24.com/24/goods/8523455?scode=032&OzSrank=2) (발췌독 완)
   * 도서관에서 허리통증에 도움이 될까 싶어서 빌려 보았음.
+* [너의 내면을 검색하라](http://www.yes24.com/24/goods/7074140?scode=032&OzSrank=1) 
+  * 강현정님의 페이스북에서 발견. 평소에 명상에 대한 호기심이 있었음.
 
 ### 2018년
 
