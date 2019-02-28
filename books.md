@@ -20,7 +20,7 @@ permalink: /books/
 * [너의 내면을 검색하라](http://www.yes24.com/24/goods/7074140?scode=032&OzSrank=1) (완)
   * 강현정님의 페이스북에서 발견. 평소에 명상에 대한 호기심이 있었음.
   * [독후감](http://blog.novice.io/독후감/2019/02/28/너의-내면을-검색하라.html)
-* [동주-하늘과 바람과 별과 시]
+* [동주-하늘과 바람과 별과 시](http://www.yes24.com/Product/Goods/23599602?scode=032&OzSrank=1)
   * 휴가를 맞아 도서관에서 충동대여
 * [쉽고 빠르게 배우는 Vue.js 2 프로그래밍](https://wikibook.co.kr/vue-js-2/)
   * vuejs 스터디 책
