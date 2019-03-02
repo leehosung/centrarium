@@ -24,6 +24,8 @@ permalink: /books/
   * 휴가를 맞아 도서관에서 충동대여
 * [쉽고 빠르게 배우는 Vue.js 2 프로그래밍](https://wikibook.co.kr/vue-js-2/)
   * vuejs 스터디 책
+* [당황하지 않고 웃으면서 아들 성교육 하는 법](http://www.yes24.com/Product/Goods/59398087?Acode=101)
+  * 와이프가 추천해 줘서 읽어 보았음
 
 ### 2018년
 
