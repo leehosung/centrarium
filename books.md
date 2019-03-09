@@ -26,6 +26,8 @@ permalink: /books/
   * vuejs 스터디 책
 * [당황하지 않고 웃으면서 아들 성교육 하는 법](http://www.yes24.com/Product/Goods/59398087?Acode=101)
   * 와이프가 추천해 줘서 읽어 보았음
+* [부분과 전체](http://www.yes24.com/Product/goods/30455678)
+  * 상왕십리역 도서관에서 빌렸음
 
 ### 2018년
 
@@ -117,7 +119,7 @@ permalink: /books/
   * [독후감](/독후감/2017/04/26/효율적-이타주의자로-한-걸음.html)
 * 나의 한국 현대사 (완)
 * 시보다 아름다운 수필
-* [만화의 이해](http://www.yes24.com/24/goods/3001183?scode=032&OzSrank=1)
+* [만화의 이해](http://www.yes24.com/24/goods/3001183?scode=032&OzSrank=1) (완)
   * 진님이 내게 추천 해 준 책
 * [Two Scoops of Django](https://www.twoscoopspress.com/) (완)
   * [두숟갈](https://brunch.co.kr/@leehosung/42) 스터디 교재
