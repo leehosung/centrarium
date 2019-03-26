@@ -32,6 +32,8 @@ permalink: /books/
   * "고독한 미식가" 작가의 책
 * [데이터 분석을 떠받치는 수학](https://wikibook.co.kr/math-for-data-science/)
   * 와이프가 사서 안보는것을 몰래 봄
+* [수학자의 공부](http://www.yes24.com/Product/goods/57953306)
+  * 수학 잘하고 싶어서 읽어 본 책
 
 ### 2018년
 
