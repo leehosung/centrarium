@@ -34,6 +34,8 @@ permalink: /books/
   * 와이프가 사서 안보는것을 몰래 봄
 * [수학자의 공부](http://www.yes24.com/Product/goods/57953306)
   * 수학 잘하고 싶어서 읽어 본 책
+* [똑똑하고 100배 일 잘하는 개발자 모시기](http://www.yes24.com/Product/Goods/2693838?scode=032&OzSrank=1)
+  * 남홍님의 추천. 개발자님 모셔보자.
 
 ### 2018년
 
