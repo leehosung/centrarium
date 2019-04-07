@@ -38,6 +38,8 @@ permalink: /books/
   * 남홍님의 추천. 개발자님 모셔보자
 * [어느 애주가의 고백](http://www.yes24.com/Product/Goods/59192332)
   * 술에 대한 재미있는 에피소드가 있을 줄 알았는데..
+* [단단한 영어공부](http://www.yes24.com/Product/Goods/70773487)
+  * 나솔님이 페이스북에 추천해 주셔서 리디로 구매
 
 ### 2018년
 
