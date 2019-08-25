@@ -40,6 +40,16 @@ permalink: /books/
   * 술에 대한 재미있는 에피소드가 있을 줄 알았는데..
 * [단단한 영어공부](http://www.yes24.com/Product/Goods/70773487)
   * 나솔님이 페이스북에 추천해 주셔서 리디로 구매
+* [계산기는 어떻게 인공지능이 되었을까](http://www.yes24.com/Product/Goods/72160471?Acode=101) (완)
+  * 도서관에서 신간 발견!
+* [괴짜 과학자, 주방에 가다](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&linkClass=&barcode=9788990429988)
+  * 도서관에서 아이들 반찬책 빌려다가 발견!
+* [파이썬으로 풀어보는 회귀분석](http://www.yes24.com/Product/Goods/67450185)
+  * 신용평가 모델 개발을 위해 구매
+* [Credit Scoring for Risk Managers](http://www.yes24.com/Product/Goods/10275590)
+  * 신용평가 모델 개발을 위해 구매
+* [파이썬 라이브러리를 활용한 머신러닝](http://www.yes24.com/Product/Goods/70969329)
+  * 신용평가 모델 개발을 위해 구매
 
 ### 2018년
 
@@ -107,7 +117,6 @@ permalink: /books/
 * [무한의 마법사](https://namu.wiki/w/%EB%AC%B4%ED%95%9C%EC%9D%98%20%EB%A7%88%EB%B2%95%EC%82%AC)
   * 2018년 크리스마스에 시작 
   * 현재 39권(2019년 1월 8일) 
-
 
 ### 2017년 
 
