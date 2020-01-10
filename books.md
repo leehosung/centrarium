@@ -4,6 +4,10 @@ title: 책
 permalink: /books/
 ---
 
+### 2020년
+
+* [팩트풀니스](http://www.yes24.com/Product/Goods/69724044) (완)
+
 ### 2019년
 
 * [함께 자라기](http://www.insightbook.co.kr/13227) (완)
