@@ -7,6 +7,9 @@ permalink: /books/
 ### 2020년
 
 * [팩트풀니스](http://www.yes24.com/Product/Goods/69724044) (완)
+* [타이탄의 도구들](https://ridibooks.com/v2/Detail?id=656000114)
+* [하마터면 회계를 모르고 일할 뻔했다!](http://www.yes24.com/Product/Goods/65787664?scode=032&OzSrank=3) 
+* [태블로 굿모닝 굿애프터눈](http://www.yes24.com/Product/Goods/85164396)
 
 ### 2019년
 
