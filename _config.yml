@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: ""
+title: "축적"
 subtitle: ""
 email: lee.ho.sung@gmail.com
 name: 이호성
