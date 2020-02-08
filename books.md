@@ -12,6 +12,8 @@ permalink: /books/
 * [태블로 굿모닝 굿애프터눈](http://www.yes24.com/Product/Goods/85164396)
 * [창문 넘어 도망친 100세 노인](https://namu.wiki/w/%EC%B0%BD%EB%AC%B8%20%EB%84%98%EC%96%B4%20%EB%8F%84%EB%A7%9D%EC%B9%9C%20100%EC%84%B8%20%EB%85%B8%EC%9D%B8)
 * [마션](http://www.yes24.com/Product/Goods/19756084)
+* [아빠의 패미니즘](http://www.yes24.com/Product/Goods/59484627?Acode=101)
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/02/09/%EC%95%84%EB%B9%A0%EC%9D%98-%ED%8E%98%EB%AF%B8%EB%8B%88%EC%A6%98.html)
 
 ### 2019년
 
