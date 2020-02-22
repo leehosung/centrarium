@@ -15,7 +15,9 @@ permalink: /books/
 * [아빠의 페미니즘](http://www.yes24.com/Product/Goods/59484627?Acode=101) (완)
   * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/02/09/%EC%95%84%EB%B9%A0%EC%9D%98-%ED%8E%98%EB%AF%B8%EB%8B%88%EC%A6%98.html)
 * [밤에 우리 영혼은](http://www.yes24.com/Product/Goods/32488280) (완)
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/02/18/%EB%B0%A4%EC%97%90-%EC%9A%B0%EB%A6%AC-%EC%98%81%ED%98%BC%EC%9D%80.html)
 * [아주 작은 습관의 힘](http://www.yes24.com/Product/Goods/69655504) (완)
+ * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/02/22/%EC%95%84%EC%A3%BC-%EC%9E%91%EC%9D%80-%EC%8A%B5%EA%B4%80%EC%9D%98-%ED%9E%98.html)
 
 ### 2019년
 
