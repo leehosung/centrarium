@@ -45,8 +45,9 @@ permalink: /books/
   * 와이프가 추천해 줘서 읽어 보았음
 * [부분과 전체](http://www.yes24.com/Product/goods/30455678)
   * 상왕십리역 도서관에서 빌렸음
-* [낮의 목용탕과 술]https://book.naver.com/bookdb/book_detail.nhn?bid=13560220) (완)
+* [낮의 목용탕과 술](https://book.naver.com/bookdb/book_detail.nhn?bid=13560220) (완)
   * "고독한 미식가" 작가의 책
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2019/03/11/%EB%82%AE%EC%9D%98-%EB%AA%A9%EC%9A%95%ED%83%95%EA%B3%BC-%EC%88%A0.html)
 * [데이터 분석을 떠받치는 수학](https://wikibook.co.kr/math-for-data-science/)
   * 와이프가 사서 안보는것을 몰래 봄
 * [수학자의 공부](http://www.yes24.com/Product/goods/57953306)
