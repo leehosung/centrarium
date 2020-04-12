@@ -21,7 +21,8 @@ permalink: /books/
 * [관점을 디자인 하라](http://www.yes24.com/Product/goods/65050340) (완)
 * [엔지니어가 배워야 할 금융시스템의 '지식'과 '기술'](http://www.yes24.com/Product/Goods/88404985)
 * [먹는 인간](http://www.yes24.com/Product/Goods/37215962?scode=032&OzSrank=2) (완)
-* [데일 카네기 인간 관계론](http://www.yes24.com/Product/Goods/79297023?scode=032&OzSrank=1) (완)
+* [데일 카네기 인간 관계론](http://www.yes24.com/Product/Goods/79297023?scode=032&OzSrank=1)
+* [세계의 끝 바다의 맛](http://www.yes24.com/Product/Goods/84901852?scode=032&OzSrank=1)
 
 ### 2019년
 
