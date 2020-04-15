@@ -9,6 +9,7 @@ permalink: /books/
 * [팩트풀니스](http://www.yes24.com/Product/Goods/69724044) (완)
 * [타이탄의 도구들](https://ridibooks.com/v2/Detail?id=656000114) (완)
 * [하마터면 회계를 모르고 일할 뻔했다!](http://www.yes24.com/Product/Goods/65787664?scode=032&OzSrank=3) (완)
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/03/01/%ED%95%98%EB%A7%88%ED%84%B0%EB%A9%B4-%ED%9A%8C%EA%B3%84%EB%A5%BC-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9D%BC%ED%95%A0-%EB%BB%94-%ED%96%88%EB%8B%A4.html)
 * [태블로 굿모닝 굿애프터눈](http://www.yes24.com/Product/Goods/85164396)
 * [창문 넘어 도망친 100세 노인](https://namu.wiki/w/%EC%B0%BD%EB%AC%B8%20%EB%84%98%EC%96%B4%20%EB%8F%84%EB%A7%9D%EC%B9%9C%20100%EC%84%B8%20%EB%85%B8%EC%9D%B8) (완)
 * [마션](http://www.yes24.com/Product/Goods/19756084)
@@ -21,8 +22,12 @@ permalink: /books/
 * [관점을 디자인 하라](http://www.yes24.com/Product/goods/65050340) (완)
 * [엔지니어가 배워야 할 금융시스템의 '지식'과 '기술'](http://www.yes24.com/Product/Goods/88404985)
 * [먹는 인간](http://www.yes24.com/Product/Goods/37215962?scode=032&OzSrank=2) (완)
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/04/05/%EB%A8%B9%EB%8A%94-%EC%9D%B8%EA%B0%84.html)
 * [데일 카네기 인간 관계론](http://www.yes24.com/Product/Goods/79297023?scode=032&OzSrank=1)
-* [세계의 끝 바다의 맛](http://www.yes24.com/Product/Goods/84901852?scode=032&OzSrank=1)
+* [세계의 끝 바다의 맛](http://www.yes24.com/Product/Goods/84901852?scode=032&OzSrank=1) (완)
+  * [독후감](https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/04/12/%EC%84%B8%EC%83%81%EC%9D%98-%EB%81%9D-%EB%B0%94%EB%8B%A4%EC%9D%98-%EB%A7%9B.html)
+* [적게 자도 괜찮습니다](http://www.yes24.com/Product/Goods/67732949?Acode=101)
+
 
 ### 2019년
 
