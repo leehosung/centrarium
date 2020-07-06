@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Why pasta comes in all shapes and sizes?"
+title:  "Why pasta comes in all shapes and sizes"
 date:   "2020-06-17 01:00:00"
 author: Lee Ho Sung
 categories: TED
