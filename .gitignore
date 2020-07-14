@@ -12,3 +12,4 @@ vendor/
 
 # vi
 *.swp
+Gemfile.lock
