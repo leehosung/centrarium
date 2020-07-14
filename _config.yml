@@ -38,10 +38,13 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: 'archive'
+  layout: archive
   permalinks:
-    category: '/category/:name/'
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
     tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Disqus comments
 disqus_shortname: novice-n
