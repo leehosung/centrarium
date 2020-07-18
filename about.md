@@ -62,4 +62,3 @@ permalink: /about/
 * Getting and Cleaning Data
 * The Data Scientist’s Toolbox
 * Computing for Data Analysis
-~
