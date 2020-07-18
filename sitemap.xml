@@ -327,6 +327,9 @@
 <loc>https://blog.novice.io/books/</loc>
 </url>
 <url>
+<loc>https://blog.novice.io/categories/</loc>
+</url>
+<url>
 <loc>https://blog.novice.io/comics/</loc>
 </url>
 <url>
@@ -340,6 +343,9 @@
 </url>
 <url>
 <loc>https://blog.novice.io/studies/</loc>
+</url>
+<url>
+<loc>https://blog.novice.io/tags/</loc>
 </url>
 <url>
 <loc>https://blog.novice.io/articles.html</loc>
