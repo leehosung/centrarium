@@ -1,30 +1,660 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>축적</title>
+    <description>여기저기에 쓰는 글들을 한 곳에 모읍니다.
+</description>
+    <link>https://blog.novice.io/</link>
+    <atom:link href="https://blog.novice.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 18 Jul 2020 02:29:30 +0000</pubDate>
+    <lastBuildDate>Sat, 18 Jul 2020 02:29:30 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>TEDict로 영어 공부하기</title>
+        <description>&lt;p&gt;영어는 인생의 짐 중 하나 입니다. 영어에 대한 고민 없이 읽고, 쓰고, 말하고, 들을 수 있으면 좋겠다는 생각을 자주합니다. 쓰기, 말하기까지는 욕심이라면 콘텐츠에 대한 집중력을 잃지 않고 읽고, 들을 수만 있어도 좋겠다 싶습니다. 세상에는 영어로 된 콘텐츠가 훨씬 많으니까요.&lt;/p&gt;
+
+&lt;p&gt;정말 많은 책, 공부법, 앱이 있지만 아직도 제가 영어 고민을 하고 있는 것을 보면 의지 부족인 것은 확실합니다. 그래도 최근에 꾸준히 할 수 있을 것 같은(미래를 쉽게 단정 하진 않겠습니다) 방법을 찾아서 소개 해 보려고 합니다. 이 방법은 다음과 같은 기준을 가지고 다듬어 졌습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;전문영역에서의 영어에 대한 학습 (내 사용 목적에 맞도록)&lt;/li&gt;
+  &lt;li&gt;내가 좋아하는 콘텐츠를 고를 수 있을 것 (그래야 재미가 있으니까)&lt;/li&gt;
+  &lt;li&gt;나에게 맞는 난이도를 조절할 수 있을 것 (효과적인 학습이 될 수 있도록)&lt;/li&gt;
+  &lt;li&gt;가능하다면 읽기, 듣기, 쓰기, 말하기를 모두 시도해 볼 수 있을 것&lt;/li&gt;
+  &lt;li&gt;빠른 피드백이 가능 할 것 (혼자 공부를 해서 봐줄 사람이 없으니까)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ted로-공부하기&quot;&gt;TED로 공부하기&lt;/h3&gt;
+
+&lt;p&gt;영어 공부를 하기 위해서는 미드를 많이 추천합니다. 일상적인 커뮤니케이션에 필요한 영어 표현이 많이 등장 하니까요. 하지만 제가 당장 외국에서 생활을 할 것 같지는 않습니다. 제게 우선 필요한 것은 기술적인 내용들을 읽고, 듣는 것 입니다. 조금 더 나아가면 저의 전문 분야에 대해서 영어로 발표를 하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;그러려면 제 목적에 가장 가까운 영어를 쓰는 곳을 찾아 학습을 하는 것이 좋습니다. 외국 개발 컨퍼런스나 스타트업을 주제로 하는 팟캐스트를 들으면 좋겠지요. 시도를 해봤지만 아직은 편안하게 듣기에는 제 실력이 부족하고, 또한 빠른 피드백을 받을 수 있는 학습 환경을 만들기도 쉽지 않았습니다.&lt;/p&gt;
+
+&lt;p&gt;그래서 다양한 콘텐츠, 난이도를 갖추고 있고 필요하다면 스크립트를 찾을 수 있는 TED로 공부를 해보기로 마음을 먹었습니다. 사실 예전에도 두어번 TED 앱을 깔아보기도 했고, 유튜브의 TED 채널을 찾아보기도 했습니다. 하지만 제가 익숙한 콘텐츠만 어느정도 이해가 되고 그렇지 않은 경우는 절반도 이해를 할 수 없어서 곧 흥미를 잃어 버렸습니다. 그래서 이번에는 받아쓰기를 통해 집중 듣기를 해봐야 겠다는 생각이 들었습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;tedict&quot;&gt;TEDict&lt;/h3&gt;
+
+&lt;p&gt;앱스토어에 가서 TED를 검색했더니 공식앱 다음으로 나오는 앱이 TEDict 였습니다. 사람들의 평이 좋아 다운로드 받았습니다. Tedict는 다음과 같은 기능을 제공합니다.&lt;/p&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-1.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TEDICT: 가장 기본이 되는 받아쓰기 기능입니다.&lt;/li&gt;
+  &lt;li&gt;TEDICTisy: 단어가 제시되고 고르기를 하는 방식입니다.&lt;/li&gt;
+  &lt;li&gt;Play Video: 탐색, 속도 조절이 포함된 플레이어 입니다.&lt;/li&gt;
+  &lt;li&gt;Script: 스크립트를 볼 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;Repeat Player: 쉐도잉을 할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;현재 제가 하고 있는 학습 방식을 소개 해 봅니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-영상-선택하기&quot;&gt;1) 영상 선택하기&lt;/h3&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-2.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;먼저 동영상을 고릅니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;한글 자막은 사용하지 않기 때문에 언어는 영어를 선택합니다.&lt;/li&gt;
+  &lt;li&gt;어떤 재미있는 영상이 나올지 모르니 주제의 제한은 특별히 하지 않습니다. 생각보다 자주 영상이 업로드 됩니다.&lt;/li&gt;
+  &lt;li&gt;부담스럽지 않은 5분 내외에 영상을 선택합니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;현재는 TED-Ed 라고 해서 교육용으로 만든 동영상을 주로 선택합니다. 애니메이션으로 되어 있어서 영상에서 맥락을 쉽게 얻을 수 있고, 전문성우의 녹음이기 때문에 상대적으로 명확하게 들립니다. 다운로드 후 영상을 봅니다. 전반적인 맥락을 이해하기 위해 노력합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-받아쓰기&quot;&gt;2) 받아쓰기&lt;/h3&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-3.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;받아쓰기는 직접 글자를 입력할 수도 있고 음성 인식을 할 수도 있습니다. 음성 인식을 하게 되면 쉐도잉의 효과가 있겠습니다. 하지만 저는 주로 지하철에서 받아 쓰기를 하다 보니 직접 입력을 합니다. 처음에는 한 단락을 반복적으로 들으면서 각 빈칸에 어떤 단어가 들어가는지를 들어 봅니다. 중간에 들리지 않는 단어나 구문이 있으면 끝까지 못갑니다. 다시 들어 봅니다.&lt;/p&gt;
+
+&lt;p&gt;끝까지 따라갈 수 있으면 다시 쪼개서 들으면서 입력을 합니다. 이 때에는 가능하면 단어 보다는 chunk 단위로 듣고 입력을 하려고 노력합니다. 한 페이지의 받아 쓰기를 마치게 되면 다시 한번 더 재생이 됩니다. 이 때에는 내가 잘 듣지 못한 부분에 집중해서 들어보고 그 부분의 발음을 따라 해봅니다.&lt;/p&gt;
+
+&lt;p&gt;받아쓰기를 전부 완료하면 영상을 처음부터 끝까지 다시 한번 재생 해 봅니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-쉐도잉&quot;&gt;3) 쉐도잉&lt;/h3&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-1.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;집에 있을 때는 따라 읽기를 합니다. 다음과 같은 순서로 됩니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;원문 재생&lt;/li&gt;
+  &lt;li&gt;따라 읽기&lt;/li&gt;
+  &lt;li&gt;내가 읽은 것 다시 들려주기&lt;/li&gt;
+  &lt;li&gt;원문 재생&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;저의 경우에는 속도보다는 정확하게 읽는 것에 집중하기 위해서 0.8배로 속도를 맞춰 두고 진행하고 있습니다. 최대한 강연자와 비슷하게 읽으려고 노력합니다. 내가 실제로 누군가에게 강연을 하고 있다고 생각합니다. 제가 말한 것을 다시 들어보면 이상한 부분이 있습니다. 그 부분에 집중해서 원문을 다시 들어보고 다음으로 넘어가기 전에 반복해 봅니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-고쳐보기&quot;&gt;4) 고쳐보기&lt;/h3&gt;
+
+&lt;p&gt;이제 Tedict 에서 스크립트를 복사해서 PC로 가져와서 Grammarly 앱에 붙여 넣습니다. Grammarly는 영어 교정 프로그램입니다. 간단한 오타, 관사의 누락, 단복수의 불일치와 같은 간단한 문제 부터 더 명확한 단어나 문장을 추천해 주기도 합니다. 영어 쓰기에 대해서 즉각적인 피드백을 받을 수 있는 것이 좋은 점 입니다. 실제 전문가에게 첨삭을 받는 기능도 있는데 추가 비용을 내야 해서 아직 사용해 보지는 않았습니다.&lt;/p&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-5.png&quot; width=&quot;640&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;우선 전문을 붙여 두고 한 단락을 읽어보고 정확히 이해합니다. 모르는 단어는 이제 찾아봅니다. 그리고 문장을 옮겨 씁니다. 문장을 옮겨 쓸 때에는 최대한 바꿔서 써보려고 노력합니다. 바꿀 것이 없을 때에는 단어 하나를 유사한 것으로 바꿔 보거나 문장을 나누거나 두 문장을 합치기도 합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-블로그에-올리고-sns에-공유하기&quot;&gt;5) 블로그에 올리고 SNS에 공유하기&lt;/h3&gt;
+
+&lt;p&gt;이미 있는 콘텐츠의 스크립트를 일부 수정한 것을 다시 인터넷에 올리는 것이 왠지 garbage를 만드는 느낌도 있지만 스스로 동기부여를 위해 올립니다. 영어로 된 내용을 어딘가에 올려두는것이 부담이 되지만 괜찮습니다. Grammarly가 잘 고쳐 주었을 테구요. 더 중요한 것은 아무도 읽지 않으니까요.&lt;/p&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-6.png&quot; width=&quot;640&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;6-학습-기록&quot;&gt;6) 학습 기록&lt;/h3&gt;
+
+&lt;p&gt;학습 기록은 노션에 기록해 둡니다. 특정 주제를 듣다 보면 호기심이 생겨서 관련된 내용들을 찾아보는 경우들이 있는데 이를 간단하게 기록해 둡니다. 물론 다음 리스트로 옮길 때의 성취감도 학습 기록을 관리하는 이유입니다.&lt;/p&gt;
+
+&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/Tedict-7.png&quot; width=&quot;640&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;글을-마치면서&quot;&gt;글을 마치면서&lt;/h3&gt;
+
+&lt;p&gt;지금 까지 10개의 TED 영상을 위 과정을 통해서 진행했습니다. 그 과정에서 조금씩 조금씩 학습하는 방식도 바뀌고 있습니다. 이런 과정들을 통해서 정말 제가 원하는 수준에 도달할 수 있을지는 잘 모르겠습니다. 하지만 지속할 수 있는 학습 방법을 발견한 것만으로도 가치가 있다고 생각합니다. 100개의 영상을 들어보는 것을 목표로 진행하고 있습니다. 100개를 다 듣게 되면 후기를 남겨 보겠습니다.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Jul 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/07/10/TEDict%EB%A1%9C-%EC%98%81%EC%96%B4-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/07/10/TEDict%EB%A1%9C-%EC%98%81%EC%96%B4-%EA%B3%B5%EB%B6%80%ED%95%98%EA%B8%B0.html</guid>
+        
+        <category>TED</category>
+        
+        <category>영어</category>
+        
+        <category>공부</category>
+        
+        
+        <category>TED</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>How the world's longest underwater tunnel was built?</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qNS2jj2w-GI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;영국과 프랑스 사이의 채널 터널은 여러가지 여러움을 딛고 완성되었다.&lt;/p&gt;
+
+&lt;p&gt;The English Channel connecting England and France has been one of the most critical marine passages. Engineers of the early 1800s proposed various plans for spanning the 33-kilometer gap. By the end of the century, an underwater passage had picked by Europeans.&lt;/p&gt;
+
+&lt;p&gt;The invention of the tunnel boring machine and the discovery of a stable layer below the seabed made this tunnel project more feasible. But at the time, Britons thought their geographic isolation from the European Continent has a strategic advantage. So, they shut down plans for the tunnel.&lt;/p&gt;
+
+&lt;p&gt;The rise of aerial warfare made these worries obsolete, and new economic concerns arose to replace them. Finally, 100 years after the initial proposal, the two countries reached an agreement to proceed with the tunnel with private funding.&lt;/p&gt;
+
+&lt;p&gt;In 1985, a group of French and British companies invested in the tunnel, the most expensive infrastructure project. 
+The design called for three separate tunnels - one for trains to France, one for trains to England, and the last for service between them.&lt;/p&gt;
+
+&lt;p&gt;In 1988, workers began excavating from both sides, planning to meet in the middle. Early surveys of the French coast exhibited the site was full of fault lines. These small cracks let water seep into the rock, so engineers had to develop waterproof boring machines. The British expected drier conditions, and go ahead with regular borers. But only months into the work, water flooded in through undetected holes. To drill in this wet chalk, the British had to use grout to seal the cracks.&lt;/p&gt;
+
+&lt;p&gt;With these obstacles behind them, both teams began drilling at full speed. Boring machines were able to drill up to 1,300 tons at nearly 3.5 meters per hour. As they dug, they installed lining rings to stabilize the tunnel behind them, making way for support wagons following each machine.&lt;/p&gt;
+
+&lt;p&gt;Even at top speed, work had to proceed carefully. Previous surveyors should check the chalk layer between rock and clay. Furthermore, both teams had to check their coordinates regularly to ensure they were on track to meet within 2 centimeters of each other. The borers employed satellite positioning systems, as well as paleontologists, to maintain this delicate trajectory. During construction, the project employed over 13,000 people and cost the lives of ten workers. But after two and a half years of tunneling, the two sides finally meet.&lt;/p&gt;
+
+&lt;p&gt;There was still work to be done before open - from installing crossover chambers and pumping stations to laying over a hundred miles of tracks, cables, and sensors. But on May 6, 1994, an opening ceremony marked the tunnel’s completion.&lt;/p&gt;
+
+&lt;p&gt;Today, the Channel Tunnel services over 20 million passengers a year, transporting riders across the channel in just 35 minutes.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, thousands of refugees have tried to enter Britain through this tunnel illegally. The history of the tunnel reminds us that breaking down barriers is the best for humanity.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Jun 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/06/30/how-the-worlds-longest-underwater-tunnel-was-built.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/06/30/how-the-worlds-longest-underwater-tunnel-was-built.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>건설</category>
+        
+        <category>역사</category>
+        
+        <category>공학</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
+      <item>
+        <title>Why pasta comes in all shapes and sizes</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/yyVMZHjaY40&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;파스타는 다양한 모영과 크기를 가지고 있는데 그것에는 나름의 이유가 있다. 파스타는 그 자체가 문화다.&lt;/p&gt;
+
+&lt;p&gt;The paste is about putting together water and some power so that you can shape it. There are cultures in the world that use powders. In Italy, we tend to use durum wheat.&lt;/p&gt;
+
+&lt;p&gt;Pasta existed for centuries, but it blossomed during the Renaissance. And in the late 17th century, it became more mass-produced.&lt;/p&gt;
+
+&lt;p&gt;Whenever you design an object of any kind, you think of how you want it to perform. So think about the same for pasta. Do you want it to be ribbed or smooth? The ribbed ones absorb the sauce better. Do you want it to be round or square? They have a different feel on the palate. Everything is for a reason.&lt;/p&gt;
+
+&lt;p&gt;There are many different ways to divide kinds of pasta, but one of the basic divisions is between fresh pasta and dry pasta. Dry pasta is always made with durum wheat flour and water, while fresh pasta could be made with flour, eggs, and additional water.&lt;/p&gt;
+
+&lt;p&gt;We can also divide them into long and short. Le’ts talk about some classical types of short pasta. Penne. We all know them. They are cut at a slanted angle, perfect for keeping the sauce. “Farfalle” means butterflies. “Orecchiette” means little ears, and “Conquillia” means shells, of course. The form of pasta is not only about just giving it shape but also about how it touches the palate and the tongue.&lt;/p&gt;
+
+&lt;p&gt;When you hone one object across centuries, standards become high. Many great designers miserably failed to impose a new shape onto the pasta because they were not centuries of families of grandmothers trying to improve on the thinness of the walls of the pasta. There’s no way to find one designer of one investor of pasta. That’s the beauty of it. It belongs to the people.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Jun 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/06/17/why-pasta-comes-in-all-shapes-and-sizes.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/06/17/why-pasta-comes-in-all-shapes-and-sizes.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>파스타</category>
+        
+        <category>음식</category>
+        
+        <category>문화</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
+      <item>
+        <title>The dark history of IQ tests</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W2bKaw2AJxs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;IQ 테스트는 특수교육이 필요한 사람들을 구분하기 시작했지만 사람들의 등급을 나누는 목적으로 오용되었다. IQ 테스트는 사람의 일반적인 지능과 잠재력을 평가할 수 없다.&lt;/p&gt;
+
+&lt;p&gt;In 1905, psychologists Alfred Binet and Théodore Simon designed a test to determine which children required individualized attention in France. Their method formed the basis of the IQ test.&lt;/p&gt;
+
+&lt;p&gt;In the late 19th century, researchers hypothesized that general intelligence could be measured by cognitive abilities like verbal reasoning, working memory, and visual-spatial skills.&lt;/p&gt;
+
+&lt;p&gt;Simon and Binet designed a set of tests to measure each of these abilities and combine them into a single score. Dividing someone’s score by their age and multiplying the result by 100 yielded the intelligence quotient or IQ.&lt;/p&gt;
+
+&lt;p&gt;Today, a score of 100 represents the average of a sample population, with 68% of the population scoring within 15 points of 100. They believe that the evaluated skills would reflect general intelligence. But, there’s no single agreed-upon definition of general intelligence.&lt;/p&gt;
+
+&lt;p&gt;What started for students who needed academic help quickly became used to sort people in other ways, often in deeply flawed ideologies.&lt;/p&gt;
+
+&lt;p&gt;One of the first large-scale implementations of IQ tests occurred in the United States during WWI. The military used it to sort recruits and screen them for officer training. At that time, many believed eugenics, the idea that desirable and undesirable genetic traits could and should be controlled in humans through selective breeding. The idea that intelligence was not only fixed and inherited, but also linked to a person’s race caused many problems.&lt;/p&gt;
+
+&lt;p&gt;Without considering that many of the recruits tested for the military were new immigrants to the United States who lacked formal education or English language exposure, scientists created an erroneous intelligence hierarchy of ethnic groups.&lt;/p&gt;
+
+&lt;p&gt;In 1924, the state of Virginia allowed for the forced sterilization of people with low IQ scores. In Nazi Germany, the government authorized the murder of children based on low IQ.&lt;/p&gt;
+
+&lt;p&gt;Following the Holocaust and the Civil Rights Movement, the discriminatory uses of IQ tests were challenged on both moral and scientific grounds.&lt;/p&gt;
+
+&lt;p&gt;Scientists began to gather evidence of environmental impacts on IQ. For example, new generations scored consistently higher on old tests than each previous generation. This phenomenon, known as the Flyll Effect, happened too fast to be caused by inheritance effects. Instead, it caused by environmental changes - improved education, better healthcare, and better nutrition.&lt;/p&gt;
+
+&lt;p&gt;In the mid-twentieth century, psychologists also tried to use IQ tests to evaluate psychiatric conditions rather than general intelligence. But today, they are no longer used to diagnose mental conditions. Because a practice later research found IQ test does not yield clinically useful information.&lt;/p&gt;
+
+&lt;p&gt;But a similarly questionable practice using subtest scores is still sometimes used to diagnose learning disabilities, against the advice of many experts. Psychologists around the world still use IQ tests to identify an intellectual disability, and the results can be used to determine appropriate educational support, job training, and assisted living.&lt;/p&gt;
+
+&lt;p&gt;IQ test results have been used to support horrific policies and scientifically baseless ideologies. That doesn’t mean the test itself is worthless - in fact, it is useful for measuring the reasoning and problem-solving skills. But that isn’t the same as measuring a person’s potential.&lt;/p&gt;
+
+&lt;p&gt;More and more researchers agree that a single numerical score can not categorize individuals.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Jun 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/06/14/the-dark-history-of-iq-tests.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/06/14/the-dark-history-of-iq-tests.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>IQ</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
+      <item>
+        <title>Does time exists?</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/R3tbVHlsKhs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;시간이라는 것은 실재할까? 세계를 이루는 기본단위일까?&lt;/p&gt;
+
+&lt;p&gt;We measure time using sundials and mechanical clocks. What exactly is it that we’re measuring?&lt;/p&gt;
+
+&lt;p&gt;Is time something that physically exists, or is it just concept in our heads?
+The answer seems self-evident. Time exists. But our understanding of time started getting complicated by Einstein.&lt;/p&gt;
+
+&lt;p&gt;His theory of relativity tells us that time is relative to people in different situations. Einstein resolved the malleability of time by combining it with space to define space-time, which can bend but behaves in consistent, predictable ways. His theory seemed to confirm that time is the fundamental unit of the universe.&lt;/p&gt;
+
+&lt;p&gt;But there’s an important question it didn’t fully resolve: 
+why we can move through space in any direction, but through time in only one? This one-way direction is called the arrow of time.&lt;/p&gt;
+
+&lt;p&gt;In physics, this is described by the Second Law of Thermodynamics, which says that systems will gain entropy over time. Systems in our universe move from order to more disorder, and it is the property of the universe that defines the direction of time’s arrow.&lt;/p&gt;
+
+&lt;p&gt;So if time is such a fundamental property, it should be in our most fundamental equations describing the universe. We currently have two equations that govern physics. General relativity describes the behavior of big things, while quantum physics explains the very small. One of the biggest goals of theoretical physicists over the last half-century has been reconciling the two into one fundamental “theory of everything.”&lt;/p&gt;
+
+&lt;p&gt;There have been many attempts, and some of them don’t include time at all. If a time-starved equation turned out to be true, would that mean that time doesn’t exist at the most fundamental level?&lt;/p&gt;
+
+&lt;p&gt;Instead of asking if time exists as a fundamental property, maybe it could exist as an emergent one. Emergent properties are things that don’t exist in individual prices of a system but do exist for the system as a whole. Each water molecule doesn’t have a wave, but the whole ocean does.
+Also, a movie creates change through time by images fast enough. Our brains perceive the passage of time from the sequence of still images.&lt;/p&gt;
+
+&lt;p&gt;The movement in movies is real, yet also an illusion. Could the physics of time somehow be a similar illusion? Physicists are still exploring these and other questions.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Jun 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/06/11/does-time-exists.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/06/11/does-time-exists.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>물리</category>
+        
+        <category>시간</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
+      <item>
+        <title>The high stakes race to make quantum computers work</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/r_t96FqWE4M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;양자 컴퓨팅의 원리와 현재 시도되고 있는 포획 이온 양자컴퓨팅, 초전도 회로 양자컴퓨팅에 대해 설명한다.&lt;/p&gt;
+
+&lt;p&gt;The success of quantum computing depends on whether we can control the strange physics of matter at microscopic scales.
+First, we have to control the environment precisely. The thick tabletop and legs guard against vibrations from footsteps, nearby elevators, and opening or closing doors. The cylinder is a vacuum chamber. Inside the vacuum chamber, is a smaller, extremely cold compartment, reachable by tiny laser beams. There are ultra-sensitive particles in the chamber that make up a quantum computer.&lt;/p&gt;
+
+&lt;p&gt;Is this effort worth it? Theoretically, quantum computers could overcome the limit of classical computer’s power. Traditional computers process data in the form of bits, which has two states labeled zero and one. On the other hand, a quantum computer uses something called a qubit, which can switch between zero, one, and what’s called a superposition.
+While the qubit is in its superposition, it has a log more information than zero or one.&lt;/p&gt;
+
+&lt;p&gt;You can think of these positions as poles on a sphere: the north represents one, and the south represents zero. A bit can only switch between these two poles, but when a qubit is in its superposition, it can be at any point on the sphere.
+The moment we measure it, the qubit resolves into a zero or a one by the characteristic of quantum. But even though we can’t observe the qubit in its superposition, we can manipulate it to perform particular operations while in this state.&lt;/p&gt;
+
+&lt;p&gt;As a problem grows more complicated, a classical computer needs more bits to solve it, while a quantum computer theoretically can handle it with few qubits. The unique properties of quantum computers result from the behavior of atomic and subatomic particles, which have quantum states corresponding to the state of the qubit.&lt;/p&gt;
+
+&lt;p&gt;Quantum states are incredibly fragile. That’s why quantum computers need such an elaborate setup, and the power of quantum computers remains mostly theoretical. For now, we can only control a few qubits in the same place at the same time.&lt;/p&gt;
+
+&lt;p&gt;There are two key components involved in controlling these fickle quantum states effectively: the types of particles a quantum computer uses, and how it manipulates those particles. For now, there are two leading approaches: trapped ions and superconducting qubits.&lt;/p&gt;
+
+&lt;p&gt;A trapped ion quantum computer uses ions as its particles and manipulates them with lasers. A trap made of electrical fields houses the ions. Inputs from the lasers tell the ions what problems to solve by causing the qubit state to rotate on the sphere. 
+For a simplified example, the lasers could input the question: what are the prime factors of 15? In response, the ions may release photons - the state of the qubit determines whether the ion emits photons and how many photons it emits. An image detection system collects these photons and processes them to reveal the answer: 3 and 5.&lt;/p&gt;
+
+&lt;p&gt;Superconducting qubit quantum computers do the same thing differently: using electrical circuits instead of an ion trap. The states of each electrical circuits instead of an ion trap. The states of each electrical circuit transrate to the state of the qubit. Electrical inputs in the form of microwaves manipulate them.&lt;/p&gt;
+
+&lt;p&gt;Each approach had advantages and disadvantages. Ions in a trap can be manipulated very precisely, and they last a long time. But as more ions are added to a trap, it becomes increasingly difficult to control each precisely.
+We can’t currently contain enough ions in a trap to do advanced computations. But, connecting many smaller traps that communicate with each other via photons might be one possible solution.&lt;/p&gt;
+
+&lt;p&gt;Superconducting circuits, meanwhile, make operations much faster than trapped ions, and it’s easier to scale up the number of circuits in a computer. But the circuits are also more fragile and have a shorter overall life span.&lt;/p&gt;
+
+&lt;p&gt;To make an advance of quantum computing is the fight against preserving quantum states. But despite all these obstacles, we’ve already succeeded at making computations in a realm we can’t enter or even observe.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 May 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/05/27/the-high-stakes-race-to-make-quantum-computers-work.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/05/27/the-high-stakes-race-to-make-quantum-computers-work.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>양자</category>
+        
+        <category>컴퓨팅</category>
+        
+        <category>컴퓨터</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
+      <item>
+        <title>미용실에서</title>
+        <description>&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/미용실에서-1.png&quot; width=&quot;640&quot; alt=&quot;views&quot; /&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;p&gt;두 달에 한번 꼴로 미용실에 간다. 보통 뒷머리가 덥수룩 해져서 미용실에 갈 때가 되었구나 싶은 생각이 들고도 두세 번 정도 미룬 다음이다. 미용실에 가면 “예약하셨나요? 찾으시는 선생님 있으세요?”를 물어본다. 몇 번 찾은 미용실이지만 담당 선생님을 따로 정하지는 않았다. 특별히 원하는 스타일이 없다 보니 늘 우물우물하다가 ”깔끔하게 잘라주세요.”라는 애매한 요구를 하고 마는데, 선생님들 마다 “깔끔하게”의 기준이 다르다 보니 늘 다른 머리가 나온다. 그 재미로 랜덤 선생님을 선택한다. 오늘의 커피랄까.&lt;/p&gt;
+
+&lt;p&gt;두 달에 한번 꼴로 내 얼굴을 구석구석 자세히 살펴본다. 미용실에 왔을 때다. 환한 조명 아래에 큰 거울 앞에 앉아 있다. 커트보를 두르고 있어서 손도 쓸 수 없으니 그저 앞의 남자를 쳐다볼 수밖에 없다. 머리를 잘라 주시는 선생님도 뭔가 골똘히 생각하고 있는 손님에게는 말 걸지 않는 것이 좋다는 노하우가 있으신지 간혹 머리를 숙여 달라는 요구 말고는 특별히 말을 걸지 않으신다. 사실 거울을 매일 보긴 한다. 면도를 할 때 빠진 곳이 없는지를 보기 위해 잠깐, 머리를 말릴 때 이상 하진 않은 지 잠깐. 하지만 목적 없이 내 얼굴을 살펴보는 것은 미용실에 앉았을 때가 유일하다.&lt;/p&gt;
+
+&lt;p&gt;일단 얼굴이 크다. 물론 앞 머리를 집게로 집어 둔 것이 이유일 수도 있다. 이마에 살짝 주름이 있는 것 같다. 눈썹을 내려 의식적으로 이마의 주름을 펴 본다. 주름이라. 어릴 때 아버지와 닮았다는 이야기를 많이 들었다. 고등학교 때 학교를 찾아오신 아버지를 친구가 바로 알아보고 나를 찾아 주기도 했었다. 하지만 나는 도대체 어디가 닮았는지 알 수가 없었다. 그런데 마흔이 되어가는 내 얼굴을 들여다보니 닮은 구석이 있는 것 같다. 그러고 보니 지금 나의 얼굴이 내가 기억하는 아버지의 얼굴의 시작 정도가 되는 것 같다.&lt;/p&gt;
+
+&lt;p&gt;얼굴의 좌우를 비교해 본다. 언젠가 봤던 기사에서 좌우 대칭 일 수록 미남이라고 했던 것 같다. 하지만 쌍꺼풀도 다르고 눈의 모양도 다르고, 코도 좀 비뚤어졌다. 다행히 입은 가운데에 잘 있어 보이지만 미남은 틀렸다. 혹시 균형을 맞춰 볼까 싶어서 눈도 한쪽을 조금 크게 떠 보고 코도 한쪽에 힘을 줘 본다. 그렇다고 잘 생겨 보이진 않는다. 뭐 괜찮다. 이 정도 얼굴이 딱 와이프가 걱정하지 않아도 될 정도다.&lt;/p&gt;
+
+&lt;p&gt;거울을 바라보고 있으니 나는 처음 만나는 사람들에게 어떤 인상 일까 싶다. 나이가 들어가면 인생이 얼굴에 남는다고 했는데, 내 얼굴에는 부모님이 남겨 주신 판 위에 무엇이 남았을까? 요즘에 회사에서는 AI 같다는 이야기를 종종 듣는데 내 무표정한 얼굴을 보니 조금 딱딱해 보이기도 한다. 디자이너 선생님께 티가 나지 않게 살짝 미소를 지어 본다. 좀 더 낫다. 웃고 살아야지.&lt;/p&gt;
+
+&lt;p&gt;이미 한참 전에 끝난 것 같은 커트가 드디어 끝나고 샴푸를 하러 간다. 내가 미용실에서 가장 좋아하시는 시간이다. 내가 할 수 있는 일을 다른 사람이 해주는 것이니 중요한 사람이 된 것 같은 느낌이다. 남이 끓여 주는 라면이 제일 맛있는 것과 같은 것이다. 이 느낌 때문에 최근에 블루클럽에서 다시 샵(!)으로 돌아왔다.&lt;/p&gt;
+
+&lt;p&gt;다시 거울 앞에 앉아서 머리를 말리기 시작했다. “제품 발라 드릴까요?”라고 물어보신다. 예전에는 “집에 바로 갈 것이니 그냥 말려만 주세요.”라고 했지만 지금은 “네. 발라 주세요.”라고 말한다. 잠깐이라도 세팅(?) 된 모습을 보고 싶은 이유다.&lt;/p&gt;
+
+&lt;p&gt;요즘 나에 대한 관심이 늘었다. 지난 겨울 아팠던 허리가 트리거가 되었다. 내가 나에게 관심을 좀 가져 달라고 말해준 것이라고 생각하고 있다. 함께 살고 있는 아이들이 빠르게 성장하니 상대적으로 내가 작아지는 느낌이다. 첫째를 목말을 태워서 열심히 돌아다니던 것이 오래되지 않은 것 같은데, 이제 둘째가 목말을 태워 달라고 하면 허리를 신경 쓰며 멈칫하게 되어 버렸다. 열심히 회사를 다니고, 회사에서 집에 돌아오면 아이들과 시간을 보내고 그리고 중간중간 회사 걱정을 하다 보니 삶에서 나를 찾을 수 없는 느낌이 들었다. 그래서 삶에서 나를 위한 공간을 좀 더 넓혀야겠다는 생각을 했다.&lt;/p&gt;
+
+&lt;p&gt;미용실에 앉아 커피 한잔을 마시며 생전 보지도 않던 잡지를 몇 장 뒤적거린 후 나왔다.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 May 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC/2020/05/24/%EB%AF%B8%EC%9A%A9%EC%8B%A4%EC%97%90%EC%84%9C.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/%EC%9D%BC%EC%83%81%EB%8B%A4%EB%B0%98%EC%82%AC/2020/05/24/%EB%AF%B8%EC%9A%A9%EC%8B%A4%EC%97%90%EC%84%9C.html</guid>
+        
+        <category>미용실</category>
+        
+        <category>나</category>
+        
+        
+        <category>일상다반사</category>
+        
+      </item>
+    
+      <item>
+        <title>우리가 빛의 속도로 갈 수 없다면</title>
+        <description>&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/우리가빛의속도로갈수없다면-1.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+                &lt;figcaption&gt;우리가 빛의 속도로 갈 수 없다면&lt;/figcaption&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;책을-만났다&quot;&gt;책을 만났다.&lt;/h3&gt;
+
+&lt;p&gt;책을 한 권 다 읽었을 때, 혹은 책을 읽다가 지루함을 느꼈을 때 리디셀렉트에서 새로운 책들을 둘러 보곤 한다. 그 때 이 책이 눈에 띄었다. 제목만 봤을 때에는 이상한 설정(?)을 가진 일본 소설인가 했었는데, SF 소설이었다. 저자의 소개에 포스텍에서 화학을 전공했다고 하니 SF 소설에 대한 신뢰가 갔다. 그래 설정이 제대로 되었겠군! 싶은 생각이 들었고, 책에 대한 호기심이 생겼다.&lt;/p&gt;
+
+&lt;p&gt;김초엽 작가가 이곳 저곳에 내었던 단편들과 “나의 우주 영웅에 관하여”을 묶어 책을 내었다. 각각의 내용이 하나의 SF 아이디어와 하나의 주제를 다루고 있어, SF에 익숙하지 않은 내 호흡에도 알맞았다. 한 호흡에 읽고 잠시 숨을 내쉬며 글의 전하고자 하는 주제를 생각 해 볼 수 있었다.&lt;/p&gt;
+
+&lt;h3 id=&quot;책을-읽고-생각했다&quot;&gt;책을 읽고 생각했다.&lt;/h3&gt;
+
+&lt;p&gt;책의 주인공은 모두 여성이다. SF 소설을 많이 읽진 않았지만 여성이 주인공인 경우가 흔치 않았던 것 같다. 그도 그럴것이 지금까지는 과학자도 우주인도 남성인 경우가 많았으니까. (어쩌면 소설가도) 그래서 주인공을 모두 여성으로 설정한 것만으로도 책이 던지고자 하는 질문을 엿볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;책은 여성을 중심으로 가족, 외로움, 소외, 차별등의 주제를 SF 상황을 통해 질문을 던진다. 우리가 지금의 현실 세계에서 느낄 수 있는 문제를 더 극적인 상황에 놓아 주제가 되는 문제를 더욱 드러내는 느낌이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;최초로 우주 터널을 넘어갈 우주인으로 선정된 나이 많은 아시아 여성이 받는 사회적인 시선과 차별 (나의 우주 영웅에 대하여)&lt;/li&gt;
+  &lt;li&gt;경제적 효율성이라는 이름으로 소외되는 계층 (우리가 빛의 속도로 갈 수 없다면)&lt;/li&gt;
+  &lt;li&gt;엄마라는 삶을 시작하며 세상과 단절 되는 여성 (관내분실)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;주제에 대해서 생각해 볼 수 있는 기회를 주는것도 좋지만, 새로운 세상에 대한 호기심과 작가의 상상력만으로도 충분히 읽을 가치가 있는 책이라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;“2020년 우주의 원더키디” 만큼 되진 않았지만 우리의 세계도 빠르게 바뀌어 간다. 이 변화 속에서 사람들의 삶은 또 어떻게 바뀌어 가고 있을까.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 18 May 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/18/%EC%9A%B0%EB%A6%AC%EA%B0%80%EB%B9%9B%EC%9D%98%EC%86%8D%EB%8F%84%EA%B0%88%EC%88%98%EC%97%86%EB%8B%A4%EB%A9%B4.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/18/%EC%9A%B0%EB%A6%AC%EA%B0%80%EB%B9%9B%EC%9D%98%EC%86%8D%EB%8F%84%EA%B0%88%EC%88%98%EC%97%86%EB%8B%A4%EB%A9%B4.html</guid>
+        
+        <category>SF</category>
+        
+        <category>여성</category>
+        
+        <category>소설</category>
+        
+        <category>단편</category>
+        
+        
+        <category>독후감</category>
+        
+      </item>
+    
+      <item>
+        <title>데일 카네기 인간관계론</title>
+        <description>&lt;center&gt;
+        &lt;figure&gt;
+                &lt;img src=&quot;https://blog.novice.io/assets/인간관계론-1.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
+                &lt;figcaption&gt;데일 카네기 인간관계론&lt;/figcaption&gt;
+        &lt;/figure&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;책을-만났다&quot;&gt;책을 만났다.&lt;/h3&gt;
+
+&lt;p&gt;인간관계론이라. 복잡한 인간관계에 대해 어떤 이야기를 풀어놓았을까? 궁금했다. 일하는 햇수가 쌓일수록 스스로 해결할 수 있는 일보다는 다른 사람들의 도움을 받아 해결해야 하는 일이 많아지는 것을 느낀다. 더 나아질 수 있는 방법을 찾고 싶어 읽어 보기로 했다.&lt;/p&gt;
+
+&lt;h3 id=&quot;책을-읽고-생각했다&quot;&gt;책을 읽고 생각했다.&lt;/h3&gt;
+
+&lt;p&gt;이 책의 초판은 1936년에 나왔다. 이메일 대신 진짜 편지가 커뮤니케이션 예제로 등장 하기에 오래된 책이라는 생각은 들었지만 생각보다 더 오래된 책이다. 그럼에도 이 책이 여전히 인간관계에 영감을 주는 것을 보면 핵심원리는 변하지 않는 구나 싶다.&lt;/p&gt;
+
+&lt;p&gt;저자는 다양한 상황에서 취해야 하는 인간관계 원칙을 이야기 하고 있다. (각각의 원칙들은 아래쪽에 따로 정리 해 두었다.) 하지만 다양한 원칙들을 관통하는 핵심은 “&lt;strong&gt;상대가 자신이 중요한 사람임을 진심으로 느끼게 하라&lt;/strong&gt;“다.&lt;/p&gt;
+
+&lt;p&gt;메슬로 욕구단계설의 1, 2 단계에 해당하는 생리학적 욕구와 안전 욕구가 충족 되면 우리의 동기는 삶의 사회적 부분에 집중된다. 그 동기의 핵심은 “중요한 사람이 되고 싶다.”다. 연인에게 중요한 사람이 되고 싶은 것은 사랑 받고 싶은 욕구이다. 회사를 포함한 사회적인 그룹에서 “중요한 사람이 되고 싶다.”는 인정 혹은 존경 받고 싶다는 욕구이다.&lt;/p&gt;
+
+&lt;p&gt;내가 인간관계에서 느꼈던 갈증들을 되새겨 보았다. 그렇다. 나 또한 중요한 사람이 되고 싶다.&lt;/p&gt;
+
+&lt;p&gt;회사에서는 이러하다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;회사에서 중요한 일을 맡고 싶다.&lt;/li&gt;
+  &lt;li&gt;회사의 중요한 정보를 알고 싶다.&lt;/li&gt;
+  &lt;li&gt;회사의 중요한 의사결정에 참여하고 싶다. 의사결정 과정에서 내 의견을 존중해 주면 좋겠다.&lt;/li&gt;
+  &lt;li&gt;회사에서 더 높은 급여를 받고 싶다.&lt;/li&gt;
+  &lt;li&gt;내가 하고 있는 일의 중요함을 알아 주면 좋겠다.&lt;/li&gt;
+  &lt;li&gt;논쟁을 이겨서 내가 더 옳았음을 증명하고 싶다.&lt;/li&gt;
+  &lt;li&gt;회사가 더 잘 되면 좋겠다. 회사가 하는 일이 사회적으로 더 영향력이 있으면 좋겠다. 이를 통해 내가 하는 일에 더 가치가 생겼으면 좋겠다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
+
+&lt;p&gt;회사 밖에서는 이러하다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;나에게 관심을 가져주면 좋겠다.&lt;/li&gt;
+  &lt;li&gt;나의 생각이 영향력을 가지면 좋겠다.&lt;/li&gt;
+  &lt;li&gt;커뮤니케이션의 중심에 있고 싶다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
+
+&lt;p&gt;집에서는 이러하다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;배우자로 부터 사랑 받고 있음을 확인하고 싶다.&lt;/li&gt;
+  &lt;li&gt;아이들에게 중요한 사람임을 확인 받고 싶다.&lt;/li&gt;
+  &lt;li&gt;생계의 무게를 짊어지고 있는 것에 대해 인정 받고 싶다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
+
+&lt;p&gt;다른 사람도 가중치의 차이는 있겠지만 나와 다르지 않을 것이다. 다른 사람들과 커뮤니케이션 할 때에도 나와 동일한 관점에서 바라보는 것이 책에서 말하는 인간관계를 잘 만들어 가는 방법으로 보인다. 예를 들면&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;함께 일하는 동료들도 그들의 일에 대한 인정을 원하고 있으며, 그들의 의견을 경청 해주기를 원한다. (&lt;strong&gt;이를 통해 스스로가 중요한 사람임을 인지하고 싶다.&lt;/strong&gt;) 따라서 그들의 일을 칭찬하고, 그들의 의견을 듣자.&lt;/li&gt;
+  &lt;li&gt;와이프도 나로 부터 사랑받고 있음을 확인하고 싶다. (&lt;strong&gt;이를 통해 스스로가 중요한 사람임을 인지하고 싶다.&lt;/strong&gt;) 따라서 진심으로 칭찬하고 관심을 보이자.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;와 같다.&lt;/p&gt;
+
+&lt;p&gt;책에서 다루고 있는 각각의 상황에 내가 겪었던 상황이 대입 되면서 그때 그랬으면 어땠을까? 하는 생각이 들었다. 나의 부족함을 찾고 이를 개선할 수 있는 도구를 찾았으니 내게는 가치 있는 책이 되었다. 그 도구는 “상대가 중요한 사람임을 느낄 수 있는가?” 라는 새로운 프레임이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;책을-요약해-두었다&quot;&gt;책을 요약해 두었다.&lt;/h3&gt;
+
+&lt;p&gt;책은 크게 5가지 파트로 나뉜다. 핵심적인 아이디어는 크게 바뀌지 않고, 각 상황에 맞는 구체적인 예를 참고하거나 이를 통해 상황을 개선하기 위한 영감을 얻을 수 있다.&lt;/p&gt;
+
+&lt;h4 id=&quot;사람을-다루는-기본-방법&quot;&gt;사람을 다루는 기본 방법&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;비판하거나, 비난하거나, 불평하지 말라. (Don’t criticize, condemn and complain.)&lt;/li&gt;
+  &lt;li&gt;솔직하게, 진심으로 인정하고 칭찬하라. (Give honest, sincere appreciation.)&lt;/li&gt;
+  &lt;li&gt;다른 사람에게 열렬한 욕구를 불러일으켜라. (Arose in the other person an eager want.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;사람들이-당신을-좋아하도록-만드는-6가지-방법&quot;&gt;사람들이 당신을 좋아하도록 만드는 6가지 방법&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;다른 사람에게 진심으로 관심을 가져라. (Become genuinely intrested in other people.)&lt;/li&gt;
+  &lt;li&gt;웃어라. (Smile)&lt;/li&gt;
+  &lt;li&gt;상대방의 이름은 그에게 있어서 모든 말 중에서 가장 달콤하고 중요한 말로 들린다는 점을 명심하라. (Remember that a man’s name is to him the sweetest and most important sound in the English language.)&lt;/li&gt;
+  &lt;li&gt;잘 듣는 사람이 되어라. 다른 사람들이 자신에 대해 이야기하도록 만들어라. (Be a good listener. Encourage otheres to talk about themselves.)&lt;/li&gt;
+  &lt;li&gt;다른 사람의 관심사에 맞춰 이야기하라. (Talk in terms of the other man’s interests.)&lt;/li&gt;
+  &lt;li&gt;다른 사람으로 하여금 자신이 중요한 사람이라고 느끼게 만들어라. 진심으로 그렇게 행동하라. (Make the other person feel important and do it sincerely.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;사람들을-설득하는-12가지-방법&quot;&gt;사람들을 설득하는 12가지 방법&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;논쟁을 이기는 유일한 방법은 논쟁을 피하는 것이다. (The only way to get the best of an argument is to avoid it.)&lt;/li&gt;
+  &lt;li&gt;다른 사람의 의견을 존중하라. 절대로 그 사람이 틀렸다고 이야기하지 마라. (Show respect for the other man’s opinions. Never tell a man he is wrong.)&lt;/li&gt;
+  &lt;li&gt;당신이 틀렸다면 빨리, 분명히 인정하라. (If you are wrong, admit it quickly and emphatically.)&lt;/li&gt;
+  &lt;li&gt;우호적으로 시작하라. (Begin in a friendly way.)&lt;/li&gt;
+  &lt;li&gt;다른 사람들로 하여금 당장 ‘네, 네’라고 말하게 하라. (Get the other person saying “yes, yes” immediately.&lt;/li&gt;
+  &lt;li&gt;다른 사람이 말을 많이 하도록 만들어라. (Let the other man do a great deal of the talking.)&lt;/li&gt;
+  &lt;li&gt;다른 사람으로 하여금 스스로 생각해 냈다고 여기도록 만들어라. (Let the other fellow feel that the idea is his.)&lt;/li&gt;
+  &lt;li&gt;진심으로 다른 사람의 관점에서 사물을 보려 애써라. (Try honestly to see things from the other person’s point of view)&lt;/li&gt;
+  &lt;li&gt;다른 사람들의 생각과 욕망에 공감하라. (Be sympathetic with the other person’s ideas and desires.)&lt;/li&gt;
+  &lt;li&gt;고상한 동기에 호소하라. (Appeal to the nobler motives.)&lt;/li&gt;
+  &lt;li&gt;당신의 생각을 극화하라. (Dramatize your ideas.)&lt;/li&gt;
+  &lt;li&gt;도전 의욕을 불러일으켜라. (Throw down a challenge.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;기분을-상하게-하거나-적개심을-불러일으키지-않고-사람을-바꾸는-9가지-방법&quot;&gt;기분을 상하게 하거나, 적개심을 불러일으키지 않고 사람을 바꾸는 9가지 방법&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;칭찬과 진심에서 우러나온 감사로 대화를 시작하라. (Begin with praise and honest appreciation.)&lt;/li&gt;
+  &lt;li&gt;사람들의 잘못을 간접적으로 지적하라. (Call attention to people’s mistakes indirectly.)&lt;/li&gt;
+  &lt;li&gt;다른 사람을 비판하기 전에 자신의 실수부터 이야기하라. (Talk about your own mistakes before criticizing the other person.)&lt;/li&gt;
+  &lt;li&gt;직접 명령을 내리기보다는 질문을 하라. (Ask questions instead of giving direct orders.)&lt;/li&gt;
+  &lt;li&gt;디른 사람의 체면을 세워 주어라. (Let the other person save face.)&lt;/li&gt;
+  &lt;li&gt;약간의 발전만 있어도 칭찬하고, 발전이 있을 때마다 칭찬하라. (Praise the slightest improvement and praise every improvement. Be “hearty in your approbation and lavish in your praise”&lt;/li&gt;
+  &lt;li&gt;기꺼이 부응할 만한 평판을 부여하라. (Give the other person a fine reputation to live up to.)&lt;/li&gt;
+  &lt;li&gt;격려하라. 고쳐 주고 싶은 잠잘못은 고치기 쉬운 잘못처럼 보이게 하라. 다른 사람이 해주었으면 하는 일은 쉬운 일처럼 보이게 만들어라. (Use encouragement. Make the fault you want to correct seem easy to correct; make the thing you want the other person to do seem easy to do.)&lt;/li&gt;
+  &lt;li&gt;당신이 제안하는 바를 다른 사람이 즐겁게 행하도록 만들어라. (Make the other person happy about doing the thing you suggest.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;결혼-생활을-행복하게-만드는-7가지-비결&quot;&gt;결혼 생활을 행복하게 만드는 7가지 비결&lt;/h4&gt;
+
+&lt;p&gt;잔소리하지 마라. (Don’t, don’t nag!)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;배우자를 바꾸려 들지 마라. (Don’t try to make your partner over.)&lt;/li&gt;
+  &lt;li&gt;비판하지 마라. (Don’t criticize.)&lt;/li&gt;
+  &lt;li&gt;진심으로 칭찬해 주어라. (Give honest appreciations.)&lt;/li&gt;
+  &lt;li&gt;작은 관심을 보여라. (Pay little attentions.)&lt;/li&gt;
+  &lt;li&gt;예의를 차려라. (Be courteous.)&lt;/li&gt;
+  &lt;li&gt;결혼의 성적 측면에 관한 좋은 책을 읽어라. (Read a good book on the secual side of marriage.)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 17 May 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/17/%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/17/%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0.html</guid>
+        
+        <category>자기계발</category>
+        
+        <category>인간관계</category>
+        
+        <category>커뮤니케이션</category>
+        
+        
+        <category>독후감</category>
+        
+      </item>
+    
+      <item>
+        <title>The life cycle of a sneaker?</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A_YMOhpyErI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;신발을 만드는 과정에서 환경, 노동 문제가 발생하고 있다. 지속 가능성을 위해 개선이 필요하다.&lt;/p&gt;
+
+&lt;p&gt;Billions of people around the world are wearing sneakers. Initially invented in the late 19th century, these simple canvas and rubber creations have changed a lot. 
+Today, sneaker consumption is at an all-time high. The United States is the country that buys the most sneakers. Americans purchase three pairs a year on average. To meet this demand, factories, mostly in China and Southeast Asia, are producing roughly 23 billion shoes each year.
+But making shoes has become more complicated, more labor-intensive,  more dangerous for the workers involved, and for our planet.&lt;/p&gt;
+
+&lt;p&gt;Shoe manufacturing accounts for roughly one-fifth of the fashion industry’s carbon emissions. To better understand the shoe’s carbon footprint, we need to dive into the anatomy of a sneaker. 
+For starters, the heel, insole, midsole, and upper layer are usually made from synthetic textiles like polyester, nylon, latex, and polyurethane that emits tons of greenhouse gases. Some of the parts of sneakers used natural materials like rubber. But today, most of them are made with a synthetic blend of natural rubber and byproducts from coal and oil.&lt;/p&gt;
+
+&lt;p&gt;Producing these materials accounts for 20% of a sneaker’s carbon footprint. But more than two-thirds of the shoe’s carbon impact comes from the next step: manufacturing. A typical sneaker consists of 65 discrete parts, and each of them is produced by specialized machinery in distributed factories. But the transportation required to ship these pieces to one assembly plant emits even more CO2. The assembly of a typical sneaker requires more than 360 steps and accounts for the remaining 20% of a sneaker’s environmental impact.&lt;/p&gt;
+
+&lt;p&gt;The dispersion of factories raises labor abuse as well. Most brands don’t own their factories, so their plants are in countries with little or no worker protection laws. As a result, many laborers earn below the living wage and are exposed to harmful chemicals.&lt;/p&gt;
+
+&lt;p&gt;Since the shoes are made of so many different materials, they’re almost impossible to break down into recyclable components. Thus, 20% of these shoes are incinerated. And the rest are tossed into landfills where they can take up to 1,000 years to degrade.&lt;/p&gt;
+
+&lt;p&gt;How can we balance our love of sneakers with sustainability?
+First, designers should simplify design elements and focus on using eco-friendly materials. Factories should develop energy-efficient manufacturing processes. We can also buy fewer shoes, wear them for longer, and donate those we no longer need.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 May 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/05/17/the-life-cycle-of-a-sneaker.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/05/17/the-life-cycle-of-a-sneaker.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>환경</category>
+        
+        <category>신발</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
+    
   </channel>
 </rss>

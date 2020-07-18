@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="naver-site-verification" content="047dfeb237d9806fd367f0b062e84b64ed873a1f" />
+
+  <title>뽀모도로 테크닉과 스크럼의 유사성</title>
+  <meta name="description" content="개인의 생산성 향상을 목적으로 하는 뽀모도로 테크닉과(팀 뽀모도로도 있긴 하다.) 팀의 생산성 향상을 목적으로 하는 스크럼은 꽤 유사한 점들이 많다. 한번 비교해 보자.">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="뽀모도로 테크닉과 스크럼의 유사성" />
+<meta name="author" content="Lee Ho Sung" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="개인의 생산성 향상을 목적으로 하는 뽀모도로 테크닉과(팀 뽀모도로도 있긴 하다.) 팀의 생산성 향상을 목적으로 하는 스크럼은 꽤 유사한 점들이 많다. 한번 비교해 보자." />
+<meta property="og:description" content="개인의 생산성 향상을 목적으로 하는 뽀모도로 테크닉과(팀 뽀모도로도 있긴 하다.) 팀의 생산성 향상을 목적으로 하는 스크럼은 꽤 유사한 점들이 많다. 한번 비교해 보자." />
+<link rel="canonical" href="https://blog.novice.io/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html" />
+<meta property="og:url" content="https://blog.novice.io/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html" />
+<meta property="og:site_name" content="축적" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-03-07T23:00:00+00:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"뽀모도로 테크닉과 스크럼의 유사성","dateModified":"2015-03-07T23:00:00+00:00","datePublished":"2015-03-07T23:00:00+00:00","url":"https://blog.novice.io/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.novice.io/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html"},"author":{"@type":"Person","name":"Lee Ho Sung"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://blog.novice.io/assets/logo.png"},"name":"Lee Ho Sung"},"description":"개인의 생산성 향상을 목적으로 하는 뽀모도로 테크닉과(팀 뽀모도로도 있긴 하다.) 팀의 생산성 향상을 목적으로 하는 스크럼은 꽤 유사한 점들이 많다. 한번 비교해 보자.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <meta name="author" content="이호성">
+  <meta name="copyright" content="&copy; 이호성 2020">
+  
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/assets/icons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  
+
+  
+
+  
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="https://blog.novice.io/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html">
+  <link rel="alternate" type="application/rss+xml" title="축적" href="https://blog.novice.io/feed.xml" />
+</head>
+
+
+  <body>
+
+    <header class="navigation" role="banner">
+  <div class="navigation-wrapper">
+    <a href="/" class="logo">
+      
+      <img src="/assets/logo.png" alt="축적">
+      
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav role="navigation">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        
+          
+          <li class="nav-link"><a href="/about/">이호성</a>
+          
+        
+          
+          <li class="nav-link"><a href="/books/">책</a>
+          
+        
+          
+          <li class="nav-link"><a href="/comics/">만화</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <li class="nav-link"><a href="/posts/">글</a>
+          
+        
+          
+          <li class="nav-link"><a href="/qs/">QS</a>
+          
+        
+          
+          <li class="nav-link"><a href="/studies/">공부</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <div class="page-content">
+        <div class="post">
+
+<div class="post-header-container " >
+  <div class="scrim ">
+    <header class="post-header">
+      <h1 class="title">뽀모도로 테크닉과 스크럼의 유사성</h1>
+      <p class="info">by <strong>Lee Ho Sung</strong></p>
+    </header>
+  </div>
+</div>
+
+<div class="wrapper">
+
+<section class="post-meta">
+  <div class="post-date">March 7, 2015</div>
+  <div class="post-categories">
+  in 
+    
+    <a href="/category/생각">생각</a>
+    
+  
+  </div>
+</section>
+
+<article class="post-content">
+  <p>개인의 생산성 향상을 목적으로 하는 뽀모도로 테크닉과(팀 뽀모도로도 있긴 하다.) 팀의 생산성 향상을 목적으로 하는 스크럼은 꽤 유사한 점들이 많다. 한번 비교해 보자.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>뽀모도로 테크닉</th>
+      <th>스크럼</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>25분을 집중하고, 5분 가량을 쉰다.</td>
+      <td>하나의 스프린트를 실행하고 약간의 휴식시간을 갖는다.</td>
+    </tr>
+    <tr>
+      <td>4개의 뽀모도로를 한 셋트로 한다. 한 셋트를 연속으로 한 경우 20분을 쉰다.</td>
+      <td>여러개의 스프린트를 묶어 하나의 릴리즈로 정한다. 릴리즈를 하고 나면 회식을 하겠지~</td>
+    </tr>
+    <tr>
+      <td>시간을 채우지 못한 뽀모도로는 세지 않는다.</td>
+      <td>개발 완료하지 못한 기능은 세지 않는다.</td>
+    </tr>
+    <tr>
+      <td>하나의 뽀모도로에서는 하나의 일만 한다.</td>
+      <td>하나의 스프린트에서는 (가능한) 미리 정해진 백로그만 처리 한다.</td>
+    </tr>
+    <tr>
+      <td>하루의 뽀모도로를 전날(혹은 아침에) 우선순위에 기반해서 정한다.</td>
+      <td>제품 백로그에서 스프린트 백로그로 우선순위를 정해서 옮긴다.</td>
+    </tr>
+    <tr>
+      <td>하루가 끝나면 회고를 진행해서 더 알찬 내일을 계획한다.</td>
+      <td>스프린트가 끝나면, 회고를 진행해서 다음 스프린트를 개선한다.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>요약해 보면 두 가지 방법 모두</p>
+<ul>
+  <li>우선순위에 따른 업무 선정</li>
+  <li>짧은 주기</li>
+  <li>주기내 방해 없이 집중</li>
+  <li>주기 후의 회고를 통한 개선 
+의 특징을 갖는다고 할 수 있겠다. 기존의 방법론들에 비해 상대적으로 짧은 주기로 진행함으로 과정 자체에 집중 할 수 있도록 해준다. 제품의 완성 뿐 아니라 과정의 완료에서도 기쁨을 얻을 수 있는 것 또한 공통점이다.</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>원래 설계했던 뽀모도로 테크닉 방법에서 좀 바뀌긴 했지만 그래도 몇달 째 실천하고 있다.</li>
+  <li>사실 회사에서는 scrumbut 을 하고 있다.</li>
+</ul>
+
+</article>
+
+
+
+<section class="tags">
+  <strong>Tags:</strong> <a href="/tag/quantified_self">quantified_self</a>,&nbsp;<a href="/tag/PM">PM</a>
+</section>
+
+
+
+<section class="rss">
+  <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+      <a href="//www.facebook.com/sharer.php?t=%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C+%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC+%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98+%EC%9C%A0%EC%82%AC%EC%84%B1&u=https%3A%2F%2Fblog.novice.io%2F%25EC%2583%259D%25EA%25B0%2581%2F2015%2F03%2F07%2F%25EB%25BD%2580%25EB%25AA%25A8%25EB%258F%2584%25EB%25A1%259C-%25ED%2585%258C%25ED%2581%25AC%25EB%258B%2589%25EA%25B3%25BC-%25EC%258A%25A4%25ED%2581%25AC%25EB%259F%25BC%25EC%259D%2598-%25EC%259C%25A0%25EC%2582%25AC%25EC%2584%25B1.html"
+        onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+        <i class="fa fa-facebook-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+      <a href="//www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblog.novice.io%2F%25EC%2583%259D%25EA%25B0%2581%2F2015%2F03%2F07%2F%25EB%25BD%2580%25EB%25AA%25A8%25EB%258F%2584%25EB%25A1%259C-%25ED%2585%258C%25ED%2581%25AC%25EB%258B%2589%25EA%25B3%25BC-%25EC%258A%25A4%25ED%2581%25AC%25EB%259F%25BC%25EC%259D%2598-%25EC%259C%25A0%25EC%2582%25AC%25EC%2584%25B1.html"
+        onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+        <i class="fa fa-linkedin-square fa-lg"></i>
+      </a>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+</section>
+
+
+
+
+<section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'novice-n';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+</div>
+</div>
+
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h3 class="footer-heading">축적</h3>
+
+    <div class="site-navigation">
+
+      <p><strong>Site Map</strong></p>
+      <ul class="pages">
+        
+        
+          <li class="nav-link"><a href="/about/">이호성</a>
+        
+        
+        
+          <li class="nav-link"><a href="/books/">책</a>
+        
+        
+        
+          <li class="nav-link"><a href="/comics/">만화</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          <li class="nav-link"><a href="/posts/">글</a>
+        
+        
+        
+          <li class="nav-link"><a href="/qs/">QS</a>
+        
+        
+        
+          <li class="nav-link"><a href="/studies/">공부</a>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+
+    <div class="site-contact">
+
+      <p><strong>Contact</strong></p>
+      <ul class="social-media-list">
+        <li>
+          <a href="mailto:lee.ho.sung@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+            <span class="username">lee.ho.sung@gmail.com</span>
+          </a>
+        </li>
+
+        
+          
+        
+          
+          <li>
+            <a href="https://www.facebook.com/hosung.lee.948" title="Friend me on Facebook">
+              <i class="fa fa-facebook"></i>
+              <span class="username">hosung.lee.948</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://github.com/leehosung" title="Fork me on GitHub">
+              <i class="fa fa-github"></i>
+              <span class="username">leehosung</span>
+            </a>
+          </li>
+          
+        
+          
+          <li>
+            <a href="https://www.linkedin.com/in/hosung-lee-61916671/" title="Connect with me on LinkedIn">
+              <i class="fa fa-linkedin"></i>
+              <span class="username">Hosung Lee</span>
+            </a>
+          </li>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+
+      </ul>
+    </div>
+
+    <div class="site-signature">
+      <p class="rss-subscribe text"><strong>Subscribe <a href="/feed.xml">via RSS</a></strong></p>
+      <p class="text">여기저기에 쓰는 글들을 한 곳에 모읍니다.
+</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- Scripts -->
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Default syntax highlighting
+  hljs.initHighlightingOnLoad();
+
+  // Header
+  var menuToggle = $('#js-mobile-menu').unbind();
+  $('#js-navigation-menu').removeClass("show");
+  menuToggle.on('click', function(e) {
+    e.preventDefault();
+    $('#js-navigation-menu').slideToggle(function(){
+      if($('#js-navigation-menu').is(':hidden')) {
+        $('#js-navigation-menu').removeAttr('style');
+      }
+    });
+  });
+});
+
+</script>
+
+
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-53902871-1', 'auto');
+  ga('send', 'pageview', {
+    'page': '/%EC%83%9D%EA%B0%81/2015/03/07/%EB%BD%80%EB%AA%A8%EB%8F%84%EB%A1%9C-%ED%85%8C%ED%81%AC%EB%8B%89%EA%B3%BC-%EC%8A%A4%ED%81%AC%EB%9F%BC%EC%9D%98-%EC%9C%A0%EC%82%AC%EC%84%B1.html',
+    'title': '뽀모도로 테크닉과 스크럼의 유사성'
+  });
+</script>
+
+
+
+  </body>
+
+</html>
