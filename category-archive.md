@@ -1,6 +1,5 @@
 ---
-title: "Posts by Category"
-layout: categories
+title: "태그"
+layout: archive
 permalink: /categories/
-author_profile: true
 ---
