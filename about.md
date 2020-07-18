@@ -15,6 +15,7 @@ permalink: /about/
 
 * [개인 브런치](https://brunch.co.kr/@leehosung)
 * [8퍼센트 프로덕트 블로그](https://8percent.github.io)
+* [노션](https://www.notion.so/leclipse/a3cb689466d149f2bd8d52b0ee6e1d38)
 
 ### Talks
 
