@@ -6,9 +6,81 @@
 </description>
     <link>https://blog.novice.io/</link>
     <atom:link href="https://blog.novice.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 22 Jul 2020 22:31:49 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2020 22:31:49 +0000</lastBuildDate>
-    <generator>Jekyll v3.8.7</generator>
+    <pubDate>Tue, 01 Sep 2020 23:59:42 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Sep 2020 23:59:42 +0000</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>잠깐 드릴 말씀이 있어요</title>
+        <description>&lt;p&gt;누군가 떠난다
+또 누군가 떠난다&lt;/p&gt;
+
+&lt;p&gt;새로운 자리를 만들 때 우리에게는 이유가 있었다
+그 자리를 마련해 낸 절박함이 있었다
+미래에 대한 기대가 있었다
+빈자리만 남았다&lt;/p&gt;
+
+&lt;p&gt;부족했다. 그래 알고 있다
+채우지 못한 갈증이 있었을 것이다. 그래 알고 있다
+꿈은 멀어져 가고 희미해져 갔다. 그래 알고 있다&lt;/p&gt;
+
+&lt;p&gt;또 누군가가 떠남을 알고 있다
+영차하고 한번씩 밀어낸 이 배는 어디를 향해 가나&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Sep 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/%EC%8B%9C/2020/09/01/%EC%9E%A0%EA%B9%90-%EB%93%9C%EB%A6%B4-%EB%A7%90%EC%94%80%EC%9D%B4-%EC%9E%88%EC%96%B4%EC%9A%94.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/%EC%8B%9C/2020/09/01/%EC%9E%A0%EA%B9%90-%EB%93%9C%EB%A6%B4-%EB%A7%90%EC%94%80%EC%9D%B4-%EC%9E%88%EC%96%B4%EC%9A%94.html</guid>
+        
+        <category>스타트업</category>
+        
+        <category>시</category>
+        
+        
+        <category>시</category>
+        
+      </item>
+    
+      <item>
+        <title>Which voting system is the best?</title>
+        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/PaxVCsnox_4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;다수결 외에도 다양한 투표 방식이 있고, 각각의 장단점이 있다.&lt;/p&gt;
+
+&lt;p&gt;Imagine we want to build a new spaceport at one of four recently settled Martian bases, and hold a vote to determine its location. There are a hundred colonists on Mars, 42 lives on West Base, 26 on North Base, 15 on South Base, and 17 on East Base. For our purposes, let’s assume that everyone prefers the spaceport to be as close to their base as possible, and will vote accordingly. What is the fairest way to conduct that vote?&lt;/p&gt;
+
+&lt;p&gt;The most straightforward solution would be that let each individual cast a single ballot and choose the most votes location. This method is known as plurality voting or “first past the post.” In this case, West Base wins easily, since it has more colonists than any others. But other colonists would consider this the worst result, given how far it is from their base. So is a plurality vote the fairest method?&lt;/p&gt;
+
+&lt;p&gt;What if we tried a system like instant runoff voting, which accounts for the full range of people’s preferences rather than their top choices? First, voters rank each of the options from 1 to 4, and we compare their top picks. South receives the fewest votes for first place, so it’s eliminated. Those voter’s choices get allocated to East Base - giving it a total of 32. We then compare the top preferences and cut the last place option again. This time North Base is eliminated. Its resident’s second choice had been South Base, but since that’s already gone, the votes go to their third choice. That gives East 58 votes over West’s 42, making it the winner. But this doesn’t seem fair either. The East started in second-to-last place, but a majority ranked it among their two least preferred options.&lt;/p&gt;
+
+&lt;p&gt;Instead of using rankings, we could try voting in multiple rounds, with the top two winners continuing to a separate runoff. Normally, this would mean West and North are winning the first round, and North is winning the second. But the residents of East Base realize that they don’t win the votes, but they can still skew the results. In the first round, they vote for South Base instead of their own, successfully keeping North from advancing. South wins the second round easily, despite that they have the least populated by East Base residents’ “tactical voting.” 
+Can a system be called fair and reasonable if it incentivizes your preferences? Maybe what we need to do is let voters express their choice in every possible head-to-head matchup.&lt;/p&gt;
+
+&lt;p&gt;This way is known as the Condorcet method. Consider one matchup: West vs. North. All 100 colonists vote on their preference between them. Then that’s West’s 42 versus the 58 from North, South, and East, who would all prefer North. 
+Now do the same for the other five matchups. The winner will be whichever base wins the most times. Here, North wins three, and South wins two. These are indeed the two most central locations, and North had the advantage of not being anyone’s least preferred choice. 
+So does that make the Condorcet method an ideal voting system in general? Not necessarily. Consider an election with three candidates. If voters prefer A over B, and B over C, but prefer C over A, this method fails to select a winner.&lt;/p&gt;
+
+&lt;p&gt;Over the decades, researchers and statisticians have come up with dozens of complicated ways of votes, and some have ever been put into practice. But whichever one you choose, it’s possible to find it delivering an unfair result. Our intuitive concept of fairness contains several assumptions that may contradict each other.&lt;/p&gt;
+
+&lt;p&gt;Mathematical proofs have shown that for any election with more than two options, it’s impossible to design a voting system that doesn’t violate at least some theoretically desirable criteria.&lt;/p&gt;
+
+&lt;p&gt;So while we often think of democracy as a simple matter of counting votes, it’s also worth considering who benefits from counting them.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Jul 2020 01:00:00 +0000</pubDate>
+        <link>https://blog.novice.io/ted/2020/07/23/which-voting-system-is-best.html</link>
+        <guid isPermaLink="true">https://blog.novice.io/ted/2020/07/23/which-voting-system-is-best.html</guid>
+        
+        <category>영어</category>
+        
+        <category>TED</category>
+        
+        <category>통계</category>
+        
+        <category>투표</category>
+        
+        
+        <category>TED</category>
+        
+      </item>
     
       <item>
         <title>TEDict로 영어 공부하기</title>
@@ -464,195 +536,6 @@ We can’t currently contain enough ions in a trap to do advanced computations. 
         
         
         <category>독후감</category>
-        
-      </item>
-    
-      <item>
-        <title>데일 카네기 인간관계론</title>
-        <description>&lt;center&gt;
-        &lt;figure&gt;
-                &lt;img src=&quot;https://blog.novice.io/assets/인간관계론-1.png&quot; width=&quot;320&quot; alt=&quot;views&quot; /&gt;
-                &lt;figcaption&gt;데일 카네기 인간관계론&lt;/figcaption&gt;
-        &lt;/figure&gt;
-&lt;/center&gt;
-
-&lt;h3 id=&quot;책을-만났다&quot;&gt;책을 만났다.&lt;/h3&gt;
-
-&lt;p&gt;인간관계론이라. 복잡한 인간관계에 대해 어떤 이야기를 풀어놓았을까? 궁금했다. 일하는 햇수가 쌓일수록 스스로 해결할 수 있는 일보다는 다른 사람들의 도움을 받아 해결해야 하는 일이 많아지는 것을 느낀다. 더 나아질 수 있는 방법을 찾고 싶어 읽어 보기로 했다.&lt;/p&gt;
-
-&lt;h3 id=&quot;책을-읽고-생각했다&quot;&gt;책을 읽고 생각했다.&lt;/h3&gt;
-
-&lt;p&gt;이 책의 초판은 1936년에 나왔다. 이메일 대신 진짜 편지가 커뮤니케이션 예제로 등장 하기에 오래된 책이라는 생각은 들었지만 생각보다 더 오래된 책이다. 그럼에도 이 책이 여전히 인간관계에 영감을 주는 것을 보면 핵심원리는 변하지 않는 구나 싶다.&lt;/p&gt;
-
-&lt;p&gt;저자는 다양한 상황에서 취해야 하는 인간관계 원칙을 이야기 하고 있다. (각각의 원칙들은 아래쪽에 따로 정리 해 두었다.) 하지만 다양한 원칙들을 관통하는 핵심은 “&lt;strong&gt;상대가 자신이 중요한 사람임을 진심으로 느끼게 하라&lt;/strong&gt;“다.&lt;/p&gt;
-
-&lt;p&gt;메슬로 욕구단계설의 1, 2 단계에 해당하는 생리학적 욕구와 안전 욕구가 충족 되면 우리의 동기는 삶의 사회적 부분에 집중된다. 그 동기의 핵심은 “중요한 사람이 되고 싶다.”다. 연인에게 중요한 사람이 되고 싶은 것은 사랑 받고 싶은 욕구이다. 회사를 포함한 사회적인 그룹에서 “중요한 사람이 되고 싶다.”는 인정 혹은 존경 받고 싶다는 욕구이다.&lt;/p&gt;
-
-&lt;p&gt;내가 인간관계에서 느꼈던 갈증들을 되새겨 보았다. 그렇다. 나 또한 중요한 사람이 되고 싶다.&lt;/p&gt;
-
-&lt;p&gt;회사에서는 이러하다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;회사에서 중요한 일을 맡고 싶다.&lt;/li&gt;
-  &lt;li&gt;회사의 중요한 정보를 알고 싶다.&lt;/li&gt;
-  &lt;li&gt;회사의 중요한 의사결정에 참여하고 싶다. 의사결정 과정에서 내 의견을 존중해 주면 좋겠다.&lt;/li&gt;
-  &lt;li&gt;회사에서 더 높은 급여를 받고 싶다.&lt;/li&gt;
-  &lt;li&gt;내가 하고 있는 일의 중요함을 알아 주면 좋겠다.&lt;/li&gt;
-  &lt;li&gt;논쟁을 이겨서 내가 더 옳았음을 증명하고 싶다.&lt;/li&gt;
-  &lt;li&gt;회사가 더 잘 되면 좋겠다. 회사가 하는 일이 사회적으로 더 영향력이 있으면 좋겠다. 이를 통해 내가 하는 일에 더 가치가 생겼으면 좋겠다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
-
-&lt;p&gt;회사 밖에서는 이러하다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;나에게 관심을 가져주면 좋겠다.&lt;/li&gt;
-  &lt;li&gt;나의 생각이 영향력을 가지면 좋겠다.&lt;/li&gt;
-  &lt;li&gt;커뮤니케이션의 중심에 있고 싶다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
-
-&lt;p&gt;집에서는 이러하다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;배우자로 부터 사랑 받고 있음을 확인하고 싶다.&lt;/li&gt;
-  &lt;li&gt;아이들에게 중요한 사람임을 확인 받고 싶다.&lt;/li&gt;
-  &lt;li&gt;생계의 무게를 짊어지고 있는 것에 대해 인정 받고 싶다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;⇒ 이를 통해 나는 중요한 사람이 되고 싶다.&lt;/p&gt;
-
-&lt;p&gt;다른 사람도 가중치의 차이는 있겠지만 나와 다르지 않을 것이다. 다른 사람들과 커뮤니케이션 할 때에도 나와 동일한 관점에서 바라보는 것이 책에서 말하는 인간관계를 잘 만들어 가는 방법으로 보인다. 예를 들면&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;함께 일하는 동료들도 그들의 일에 대한 인정을 원하고 있으며, 그들의 의견을 경청 해주기를 원한다. (&lt;strong&gt;이를 통해 스스로가 중요한 사람임을 인지하고 싶다.&lt;/strong&gt;) 따라서 그들의 일을 칭찬하고, 그들의 의견을 듣자.&lt;/li&gt;
-  &lt;li&gt;와이프도 나로 부터 사랑받고 있음을 확인하고 싶다. (&lt;strong&gt;이를 통해 스스로가 중요한 사람임을 인지하고 싶다.&lt;/strong&gt;) 따라서 진심으로 칭찬하고 관심을 보이자.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;와 같다.&lt;/p&gt;
-
-&lt;p&gt;책에서 다루고 있는 각각의 상황에 내가 겪었던 상황이 대입 되면서 그때 그랬으면 어땠을까? 하는 생각이 들었다. 나의 부족함을 찾고 이를 개선할 수 있는 도구를 찾았으니 내게는 가치 있는 책이 되었다. 그 도구는 “상대가 중요한 사람임을 느낄 수 있는가?” 라는 새로운 프레임이다.&lt;/p&gt;
-
-&lt;h3 id=&quot;책을-요약해-두었다&quot;&gt;책을 요약해 두었다.&lt;/h3&gt;
-
-&lt;p&gt;책은 크게 5가지 파트로 나뉜다. 핵심적인 아이디어는 크게 바뀌지 않고, 각 상황에 맞는 구체적인 예를 참고하거나 이를 통해 상황을 개선하기 위한 영감을 얻을 수 있다.&lt;/p&gt;
-
-&lt;h4 id=&quot;사람을-다루는-기본-방법&quot;&gt;사람을 다루는 기본 방법&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;비판하거나, 비난하거나, 불평하지 말라. (Don’t criticize, condemn and complain.)&lt;/li&gt;
-  &lt;li&gt;솔직하게, 진심으로 인정하고 칭찬하라. (Give honest, sincere appreciation.)&lt;/li&gt;
-  &lt;li&gt;다른 사람에게 열렬한 욕구를 불러일으켜라. (Arose in the other person an eager want.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;사람들이-당신을-좋아하도록-만드는-6가지-방법&quot;&gt;사람들이 당신을 좋아하도록 만드는 6가지 방법&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;다른 사람에게 진심으로 관심을 가져라. (Become genuinely intrested in other people.)&lt;/li&gt;
-  &lt;li&gt;웃어라. (Smile)&lt;/li&gt;
-  &lt;li&gt;상대방의 이름은 그에게 있어서 모든 말 중에서 가장 달콤하고 중요한 말로 들린다는 점을 명심하라. (Remember that a man’s name is to him the sweetest and most important sound in the English language.)&lt;/li&gt;
-  &lt;li&gt;잘 듣는 사람이 되어라. 다른 사람들이 자신에 대해 이야기하도록 만들어라. (Be a good listener. Encourage otheres to talk about themselves.)&lt;/li&gt;
-  &lt;li&gt;다른 사람의 관심사에 맞춰 이야기하라. (Talk in terms of the other man’s interests.)&lt;/li&gt;
-  &lt;li&gt;다른 사람으로 하여금 자신이 중요한 사람이라고 느끼게 만들어라. 진심으로 그렇게 행동하라. (Make the other person feel important and do it sincerely.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;사람들을-설득하는-12가지-방법&quot;&gt;사람들을 설득하는 12가지 방법&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;논쟁을 이기는 유일한 방법은 논쟁을 피하는 것이다. (The only way to get the best of an argument is to avoid it.)&lt;/li&gt;
-  &lt;li&gt;다른 사람의 의견을 존중하라. 절대로 그 사람이 틀렸다고 이야기하지 마라. (Show respect for the other man’s opinions. Never tell a man he is wrong.)&lt;/li&gt;
-  &lt;li&gt;당신이 틀렸다면 빨리, 분명히 인정하라. (If you are wrong, admit it quickly and emphatically.)&lt;/li&gt;
-  &lt;li&gt;우호적으로 시작하라. (Begin in a friendly way.)&lt;/li&gt;
-  &lt;li&gt;다른 사람들로 하여금 당장 ‘네, 네’라고 말하게 하라. (Get the other person saying “yes, yes” immediately.&lt;/li&gt;
-  &lt;li&gt;다른 사람이 말을 많이 하도록 만들어라. (Let the other man do a great deal of the talking.)&lt;/li&gt;
-  &lt;li&gt;다른 사람으로 하여금 스스로 생각해 냈다고 여기도록 만들어라. (Let the other fellow feel that the idea is his.)&lt;/li&gt;
-  &lt;li&gt;진심으로 다른 사람의 관점에서 사물을 보려 애써라. (Try honestly to see things from the other person’s point of view)&lt;/li&gt;
-  &lt;li&gt;다른 사람들의 생각과 욕망에 공감하라. (Be sympathetic with the other person’s ideas and desires.)&lt;/li&gt;
-  &lt;li&gt;고상한 동기에 호소하라. (Appeal to the nobler motives.)&lt;/li&gt;
-  &lt;li&gt;당신의 생각을 극화하라. (Dramatize your ideas.)&lt;/li&gt;
-  &lt;li&gt;도전 의욕을 불러일으켜라. (Throw down a challenge.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;기분을-상하게-하거나-적개심을-불러일으키지-않고-사람을-바꾸는-9가지-방법&quot;&gt;기분을 상하게 하거나, 적개심을 불러일으키지 않고 사람을 바꾸는 9가지 방법&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;칭찬과 진심에서 우러나온 감사로 대화를 시작하라. (Begin with praise and honest appreciation.)&lt;/li&gt;
-  &lt;li&gt;사람들의 잘못을 간접적으로 지적하라. (Call attention to people’s mistakes indirectly.)&lt;/li&gt;
-  &lt;li&gt;다른 사람을 비판하기 전에 자신의 실수부터 이야기하라. (Talk about your own mistakes before criticizing the other person.)&lt;/li&gt;
-  &lt;li&gt;직접 명령을 내리기보다는 질문을 하라. (Ask questions instead of giving direct orders.)&lt;/li&gt;
-  &lt;li&gt;디른 사람의 체면을 세워 주어라. (Let the other person save face.)&lt;/li&gt;
-  &lt;li&gt;약간의 발전만 있어도 칭찬하고, 발전이 있을 때마다 칭찬하라. (Praise the slightest improvement and praise every improvement. Be “hearty in your approbation and lavish in your praise”&lt;/li&gt;
-  &lt;li&gt;기꺼이 부응할 만한 평판을 부여하라. (Give the other person a fine reputation to live up to.)&lt;/li&gt;
-  &lt;li&gt;격려하라. 고쳐 주고 싶은 잠잘못은 고치기 쉬운 잘못처럼 보이게 하라. 다른 사람이 해주었으면 하는 일은 쉬운 일처럼 보이게 만들어라. (Use encouragement. Make the fault you want to correct seem easy to correct; make the thing you want the other person to do seem easy to do.)&lt;/li&gt;
-  &lt;li&gt;당신이 제안하는 바를 다른 사람이 즐겁게 행하도록 만들어라. (Make the other person happy about doing the thing you suggest.)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;결혼-생활을-행복하게-만드는-7가지-비결&quot;&gt;결혼 생활을 행복하게 만드는 7가지 비결&lt;/h4&gt;
-
-&lt;p&gt;잔소리하지 마라. (Don’t, don’t nag!)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;배우자를 바꾸려 들지 마라. (Don’t try to make your partner over.)&lt;/li&gt;
-  &lt;li&gt;비판하지 마라. (Don’t criticize.)&lt;/li&gt;
-  &lt;li&gt;진심으로 칭찬해 주어라. (Give honest appreciations.)&lt;/li&gt;
-  &lt;li&gt;작은 관심을 보여라. (Pay little attentions.)&lt;/li&gt;
-  &lt;li&gt;예의를 차려라. (Be courteous.)&lt;/li&gt;
-  &lt;li&gt;결혼의 성적 측면에 관한 좋은 책을 읽어라. (Read a good book on the secual side of marriage.)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sun, 17 May 2020 01:00:00 +0000</pubDate>
-        <link>https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/17/%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0.html</link>
-        <guid isPermaLink="true">https://blog.novice.io/%EB%8F%85%ED%9B%84%EA%B0%90/2020/05/17/%EC%9D%B8%EA%B0%84%EA%B4%80%EA%B3%84%EB%A1%A0.html</guid>
-        
-        <category>자기계발</category>
-        
-        <category>인간관계</category>
-        
-        <category>커뮤니케이션</category>
-        
-        
-        <category>독후감</category>
-        
-      </item>
-    
-      <item>
-        <title>The life cycle of a sneaker?</title>
-        <description>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A_YMOhpyErI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;신발을 만드는 과정에서 환경, 노동 문제가 발생하고 있다. 지속 가능성을 위해 개선이 필요하다.&lt;/p&gt;
-
-&lt;p&gt;Billions of people around the world are wearing sneakers. Initially invented in the late 19th century, these simple canvas and rubber creations have changed a lot. 
-Today, sneaker consumption is at an all-time high. The United States is the country that buys the most sneakers. Americans purchase three pairs a year on average. To meet this demand, factories, mostly in China and Southeast Asia, are producing roughly 23 billion shoes each year.
-But making shoes has become more complicated, more labor-intensive,  more dangerous for the workers involved, and for our planet.&lt;/p&gt;
-
-&lt;p&gt;Shoe manufacturing accounts for roughly one-fifth of the fashion industry’s carbon emissions. To better understand the shoe’s carbon footprint, we need to dive into the anatomy of a sneaker. 
-For starters, the heel, insole, midsole, and upper layer are usually made from synthetic textiles like polyester, nylon, latex, and polyurethane that emits tons of greenhouse gases. Some of the parts of sneakers used natural materials like rubber. But today, most of them are made with a synthetic blend of natural rubber and byproducts from coal and oil.&lt;/p&gt;
-
-&lt;p&gt;Producing these materials accounts for 20% of a sneaker’s carbon footprint. But more than two-thirds of the shoe’s carbon impact comes from the next step: manufacturing. A typical sneaker consists of 65 discrete parts, and each of them is produced by specialized machinery in distributed factories. But the transportation required to ship these pieces to one assembly plant emits even more CO2. The assembly of a typical sneaker requires more than 360 steps and accounts for the remaining 20% of a sneaker’s environmental impact.&lt;/p&gt;
-
-&lt;p&gt;The dispersion of factories raises labor abuse as well. Most brands don’t own their factories, so their plants are in countries with little or no worker protection laws. As a result, many laborers earn below the living wage and are exposed to harmful chemicals.&lt;/p&gt;
-
-&lt;p&gt;Since the shoes are made of so many different materials, they’re almost impossible to break down into recyclable components. Thus, 20% of these shoes are incinerated. And the rest are tossed into landfills where they can take up to 1,000 years to degrade.&lt;/p&gt;
-
-&lt;p&gt;How can we balance our love of sneakers with sustainability?
-First, designers should simplify design elements and focus on using eco-friendly materials. Factories should develop energy-efficient manufacturing processes. We can also buy fewer shoes, wear them for longer, and donate those we no longer need.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 17 May 2020 01:00:00 +0000</pubDate>
-        <link>https://blog.novice.io/ted/2020/05/17/the-life-cycle-of-a-sneaker.html</link>
-        <guid isPermaLink="true">https://blog.novice.io/ted/2020/05/17/the-life-cycle-of-a-sneaker.html</guid>
-        
-        <category>영어</category>
-        
-        <category>TED</category>
-        
-        <category>환경</category>
-        
-        <category>신발</category>
-        
-        
-        <category>TED</category>
         
       </item>
     
