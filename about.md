@@ -35,6 +35,10 @@ permalink: /about/
 
 ## 공부
 
+### 2021년
+
+* [블록체인과 디지털 자산 - KAIST 디지털금융전문가과정](https://www.business.kaist.ac.kr/html/executive/sub09/sub02_0905.html)
+
 ### 2018년
 
 * [Ethereum : Decentralized Application Design & Development](https://www.udemy.com/ethereum-dapp/)
